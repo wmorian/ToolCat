@@ -87,6 +87,7 @@ button>i {
 
 .add-button:hover, #searchButton:hover {
     opacity: 1;
+    background-color: #06D6A0;
 }
 
 /* The Modal (background) */
