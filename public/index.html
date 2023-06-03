@@ -4,15 +4,19 @@
 <head>
     <title>Tool Catalog</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- css.gg -->
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/add.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/check-o.css' rel='stylesheet'>
 </head>
 
 <body>
     <div class="container">
         <h1 class="title">Tool Catalog</h1>
-        <input type="text" id="searchInput" placeholder="Search for tools..." />
+        <input type="text" id="searchInput" class="search-input" placeholder="Search for tools..." />
         <div class="button-container">
-            <button id="searchButton">Search</button>
-            <button id="addButton">Add new Tool</button>
+            <button id="searchButton">Search <i class="gg-search"></i> </button>
+            <button id="addButton">Add Tool <i class="gg-add"></i> </button>
         </div>
     </div>
     <div id="myModal" class="modal">
@@ -24,7 +28,7 @@
                 <textarea id="description" placeholder="Tool Description"></textarea><br>
                 <input type="text" id="categories" placeholder="Categories (comma separated)" /><br>
                 <input type="text" id="tags" placeholder="Tags (comma separated)" /><br>
-                <input type="submit" value="Add Tool" />
+                <input type="submit" value="Add Tool" class="add-button" />
             </form>
         </div>
     </div>
