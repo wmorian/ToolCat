@@ -40,24 +40,14 @@ router.get('/search', async (req, res) => {
     const tools = await Tool.findAll({
         where: {
             [Op.or]: [
-                { name: { [Op.like]: '%' + query + '%' } },
-                { description: { [Op.like]: '%' + query + '%' } }
+                { name: { [Op.like]: `%${query}%` } },
+                { description: { [Op.like]: `%${query}%` } },
+                { '$Categories.name$': { [Op.like]: `%${query}%` } },
+                { '$Tags.name$': { [Op.like]: `%${query}%` } }
             ]
         },
-        include: [
-            {
-                model: Category,
-                where: { name: { [Op.like]: '%' + query + '%' } },
-                required: false
-            },
-            {
-                model: Tag,
-                where: { name: { [Op.like]: '%' + query + '%' } },
-                required: false
-            }
-        ]
+        include: [Category, Tag]
     });
-
     res.json(tools);
 });
 
