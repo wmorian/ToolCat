@@ -79,15 +79,19 @@ button>i {
     transition: 0.3s;
 }
 
+.add-button:hover {
+    opacity: 1;
+    background-color: #06D6A0;
+}
+
 #searchButton {
     background-color: #54C6EB;
     opacity: 0.6;
     transition: 0.3s;
 }
 
-.add-button:hover, #searchButton:hover {
+#searchButton:hover {
     opacity: 1;
-    background-color: #06D6A0;
 }
 
 /* The Modal (background) */
