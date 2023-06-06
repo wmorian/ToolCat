@@ -41,16 +41,16 @@ window.onclick = function (event) {
     }
 }
 
-document.getElementById('addToolForm').addEventListener('submit', function(e) {
+document.getElementById('addToolForm').addEventListener('submit', function (e) {
     e.preventDefault();
-    
+
     var categoryList = document.getElementById('categories').value.split(',');
     var tagList = document.getElementById('tags').value.split(',');
 
-    var categories = categoryList.map(function(category) {
+    var categories = categoryList.map(function (category) {
         return { name: category.trim() }
     });
-    var tags = tagList.map(function(tag) {
+    var tags = tagList.map(function (tag) {
         return { name: tag.trim() }
     });
 
@@ -70,20 +70,20 @@ document.getElementById('addToolForm').addEventListener('submit', function(e) {
         },
         body: JSON.stringify(tool),
     })
-    .then(response => response.json())
-    .then(data => {
-        console.log('Success:', data);
-        var modal = document.getElementById("myModal");
-        modal.style.display = "none";
-    })
-    .catch((error) => {
-        console.error('Error:', error);
-    });
+        .then(response => response.json())
+        .then(data => {
+            console.log('Success:', data);
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
 });
 
-document.getElementById('webLink').addEventListener('input', function(e) {
+document.getElementById('webLink').addEventListener('input', function (e) {
     var url = e.target.value;
-    
+
     fetch('/api/meta', {
         method: 'POST',
         headers: {
@@ -91,20 +91,41 @@ document.getElementById('webLink').addEventListener('input', function(e) {
         },
         body: JSON.stringify({ url: url }),
     })
-    .then(response => response.json())
-    .then(data => {
-        // display the other fields
-        var elements = document.getElementsByClassName('hideInput');
-        for (var i = 0; i < elements.length; i++) {
-            elements[i].style.display = 'block';
-        }
+        .then(response => response.json())
+        .then(data => {
+            // display the other fields
+            var elements = document.getElementsByClassName('hideInput');
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].style.display = 'block';
+            }
 
-        // populate the inputs with the response data
-        document.getElementById('name').value = data.title || '';
-        document.getElementById('description').value = data.description || '';
-    })
-    .catch((error) => {
-        console.error('Error:', error);
-    });
+            // populate the inputs with the response data
+            document.getElementById('name').value = data.title || '';
+            document.getElementById('description').value = data.description || '';
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+});
+
+document.getElementById('categories').addEventListener('input', function (e) {
+    let query = e.target.value;
+
+    // TODO: empty the suggestion list
+
+    if (query.length >= 2) {
+        fetch(`/api/categories/search?query=${query}`)
+            .then(response => response.json())
+            .then(data => {
+
+                // TODO: Create a list item for each suggestion
+                console.log(data)
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    } else {
+        // TODO: empty the suggestion list
+    }
 });
 
