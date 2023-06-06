@@ -14,11 +14,13 @@ document.getElementById('searchButton').addEventListener('click', function () {
 });
 
 document.getElementById('addButton').addEventListener('click', function () {
-    document.getElementById('name').value = "";
     document.getElementById('webLink').value = "";
-    document.getElementById('description').value = "";
-    document.getElementById('categories').value = "";
-    document.getElementById('tags').value = "";
+    
+    var elements = document.getElementsByClassName('hideInput');
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.display = 'none';
+        elements[i].value = "";
+    }
 
     var modal = document.getElementById("myModal");
     modal.style.display = "block";
@@ -81,7 +83,7 @@ document.getElementById('addToolForm').addEventListener('submit', function (e) {
         });
 });
 
-document.getElementById('webLink').addEventListener('input', function (e) {
+document.getElementById('webLink').addEventListener('change', function (e) {
     var url = e.target.value;
 
     fetch('/api/meta', {

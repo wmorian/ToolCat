@@ -22,15 +22,41 @@
     </div>
     <div id="myModal" class="modal">
         <div class="modal-content">
-            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2>Add a new Tool</h2>
+                <span class="close">&times;</span>
+            </div>
             <form id="addToolForm">
-                <input type="text" id="webLink" placeholder="Tool Web Link" required /><br>
-                <input type="text" id="name" placeholder="Tool Name" required class="hideInput" /><br>
-                <textarea id="description" placeholder="Tool Description" class="hideInput"></textarea><br>
-                <input type="text" id="categories" placeholder="Categories (comma separated)" class="hideInput" /><br>
-                <input type="text" id="tags" placeholder="Tags (comma separated)" class="hideInput" /><br>
-                <input type="submit" value="Add Tool" class="add-button hideInput" />
-            </form>            
+                <label for="webLink">Tool Web Link:</label>
+                <input class="add-tool-input" type="text" id="webLink" autocomplete="off" placeholder="Tool Web Link"
+                    required /><br>
+
+                <div class="hideInput">
+                    <label for="name">Tool Name:</label>
+                    <input type="text" id="name" autocomplete="off" placeholder="Tool Name" required
+                        class="add-tool-input" /><br>
+                </div>
+
+                <div class="hideInput">
+                    <label for="description">Tool Description:</label>
+                    <textarea id="description" autocomplete="off" placeholder="Tool Description"
+                        class="add-tool-input"></textarea><br>
+                </div>
+
+                <div class="hideInput">
+                    <label for="categories">Categories:</label>
+                    <input type="text" id="categories" autocomplete="off" placeholder="Categories (comma separated)"
+                        class="add-tool-input" /><br>
+                </div>
+
+                <div class="hideInput">
+                    <label for="tags">Tags:</label>
+                    <input type="text" id="tags" autocomplete="off" placeholder="Tags (comma separated)"
+                        class="add-tool-input" /><br>
+                </div>
+
+                <input type="submit" value="Add" class="add-button" />
+            </form>
         </div>
     </div>
 
