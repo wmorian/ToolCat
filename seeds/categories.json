@@ -1,0 +1,17 @@
+[
+    { "name": "Development" },
+    { "name": "Design" },
+    { "name": "Graphics" },
+    { "name": "Productivity" },
+    { "name": "Organization" },
+    { "name": "Utilities" },
+    { "name": "Security" },
+    { "name": "Communication" },
+    { "name": "Collaboration" },
+    { "name": "Data Analysis" },
+    { "name": "Mobile Development" },
+    { "name": "Cloud" },
+    { "name": "Infrastructure" },
+    { "name": "Web Development" }
+  ]
+  
