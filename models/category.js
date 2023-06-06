@@ -1,8 +1,8 @@
-const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = require('./index');
+import { DataTypes } from 'sequelize';
+import sequelize from './index.js';
 
 const Category = sequelize.define('Category', {
     name: { type: DataTypes.STRING, allowNull: false },
 });
 
-module.exports = Category;
+export default Category;

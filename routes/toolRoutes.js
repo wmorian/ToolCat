@@ -1,9 +1,9 @@
-const express = require('express');
-const { Op } = require("sequelize");
-const Tool = require('../models/tool');
-const Category = require('../models/category')
-const Tag = require('../models/tag')
-const router = express.Router();
+import { Router } from 'express';
+import { Op } from "sequelize";
+import Tool from '../models/tool.js';
+import Category from '../models/category.js';
+import Tag from '../models/tag.js';
+const router = Router();
 
 router.get('/', async (req, res) => {
     const tools = await Tool.findAll();
@@ -71,4 +71,4 @@ router.delete('/:id', async (req, res) => {
 });
 
 
-module.exports = router;
+export default router;

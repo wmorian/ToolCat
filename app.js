@@ -1,19 +1,19 @@
-const express = require('express');
+import express, { json, static as serve } from 'express';
 const app = express();
-const toolRoutes = require('./routes/toolRoutes');
-const tagsRoutes = require('./routes/tagRoutes');
-const categoriesRoutes = require('./routes/categoryRoutes');
+import toolRoutes from './routes/toolRoutes.js';
+import tagsRoutes from './routes/tagRoutes.js';
+import categoriesRoutes from './routes/categoryRoutes.js';
 
-app.use(express.json()); // for parsing application/json
+app.use(json()); // for parsing application/json
 
 // Serve static files from the public directory
-app.use(express.static('public'));
+app.use(serve('public'));
 
 // Initialize sequelize and setup relationships
-const sequelize = require('./models/index');
-const Tool = require('./models/tool');
-const Category = require('./models/category');
-const Tag = require('./models/tag');
+import sequelize from './models/index.js';
+import Tool from './models/tool.js';
+import Category from './models/category.js';
+import Tag from './models/tag.js';
 
 Tool.belongsToMany(Category, { through: 'ToolCategory' });
 Category.belongsToMany(Tool, { through: 'ToolCategory' });

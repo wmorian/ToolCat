@@ -1,10 +1,10 @@
-const express = require('express');
-const Tag = require('../models/tag')
-const router = express.Router();
+import { Router } from 'express';
+import Tag from '../models/tag.js';
+const router = Router();
 
 router.get('/', async (req, res) => {
     const tags = await Tag.findAll();
     res.json(tags);
 });
 
-module.exports = router;
+export default router;

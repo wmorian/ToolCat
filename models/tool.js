@@ -1,5 +1,5 @@
-const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = require('./index');
+import { DataTypes } from 'sequelize';
+import sequelize from './index.js';
 
 const Tool = sequelize.define('Tool', {
     name: { type: DataTypes.STRING, allowNull: false },
@@ -12,4 +12,4 @@ const Tool = sequelize.define('Tool', {
     updatedAt: false,
 });
 
-module.exports = Tool;
+export default Tool;
