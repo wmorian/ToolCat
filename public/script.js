@@ -80,3 +80,31 @@ document.getElementById('addToolForm').addEventListener('submit', function(e) {
         console.error('Error:', error);
     });
 });
+
+document.getElementById('webLink').addEventListener('input', function(e) {
+    var url = e.target.value;
+    
+    fetch('/api/meta', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ url: url }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        // display the other fields
+        var elements = document.getElementsByClassName('hideInput');
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].style.display = 'block';
+        }
+
+        // populate the inputs with the response data
+        document.getElementById('name').value = data.title || '';
+        document.getElementById('description').value = data.description || '';
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+});
+

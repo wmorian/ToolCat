@@ -45,6 +45,10 @@ body {
     font-size: 18px;
 } */
 
+.hideInput {
+    display: none;
+}
+
 .search-input {
     border: 2px solid black;
     border-radius: 100vmax;
