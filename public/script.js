@@ -118,7 +118,28 @@ document.getElementById('categories').addEventListener('input', function (e) {
             .then(response => response.json())
             .then(data => {
 
-                // TODO: Create a list item for each suggestion
+                // TODO: How to show the category suggestions
+                console.log(data)
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    } else {
+        // TODO: empty the suggestion list
+    }
+});
+
+document.getElementById('tags').addEventListener('input', function (e) {
+    let query = e.target.value;
+
+    // TODO: empty the suggestion list
+
+    if (query.length >= 2) {
+        fetch(`/api/tags/search?query=${query}`)
+            .then(response => response.json())
+            .then(data => {
+
+                // TODO: how to show the tag suggestions
                 console.log(data)
             })
             .catch(error => {
