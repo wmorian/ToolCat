@@ -15,6 +15,7 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    container-type: inline-size;
 }
 
 @media screen and (min-width: 600px) {
@@ -28,11 +29,20 @@ body {
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    width: 100%;
+}
+
+
+@container (min-width: 800px) {
+    .container {
+        width: 50%;
+    }
 }
 
 .title {
     margin-bottom: 20px;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 900;
     outline: 1px solid #D8D8D8;
     padding: 1rem;
     text-transform: uppercase;
