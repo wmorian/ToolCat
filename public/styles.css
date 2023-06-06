@@ -13,9 +13,14 @@ html {
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        align-items: center;
+    }
 }
 
 .container {
@@ -48,7 +53,6 @@ body {
 
 .button-container {
     display: flex;
-    flex: 1;
     padding-top: .5rem;
 }
 
