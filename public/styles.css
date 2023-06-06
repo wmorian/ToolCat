@@ -15,13 +15,6 @@ body {
     justify-content: center;
     height: 100vh;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-    container-type: inline-size;
-}
-
-@media screen and (min-width: 600px) {
-    body {
-        align-items: center;
-    }
 }
 
 .container {
@@ -30,13 +23,6 @@ body {
     flex-direction: column;
     padding: 2rem;
     width: 100%;
-}
-
-
-@container (min-width: 800px) {
-    .container {
-        width: 50%;
-    }
 }
 
 .title {
@@ -70,11 +56,13 @@ body {
     padding-top: .5rem;
 }
 
-button, input[type="submit"] {
+button,
+input[type="submit"] {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    cursor: pointer;    border-radius: 100vmax;
+    cursor: pointer;
+    border-radius: 100vmax;
     border: 2px solid black;
     padding: .5rem 1rem;
     margin: auto .5rem auto 0;
@@ -112,6 +100,18 @@ button>i {
     opacity: 1;
 }
 
+table {
+    width: fit-content;
+    margin-top: 1rem;;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
 .modal {
     display: none;
     position: fixed;
@@ -122,7 +122,7 @@ button>i {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {

@@ -10,12 +10,26 @@ document.getElementById('searchButton').addEventListener('click', function () {
             // Display the results
             console.log(data);
             // Here you can add code to display the data on the page
+            let placeholder = document.querySelector("#data-output");
+            let out = "";
+            let tools = data;
+            for(let tool of tools){
+               out += `
+                  <tr>
+                     <td>${tool.name}</td>
+                     <td>${tool.description}</td>
+                     <td>${tool.link}</td>
+                  </tr>
+               `;
+            }
+
+            placeholder.innerHTML = out;
         });
 });
 
 document.getElementById('addButton').addEventListener('click', function () {
     document.getElementById('webLink').value = "";
-    
+
     var elements = document.getElementsByClassName('hideInput');
     for (var i = 0; i < elements.length; i++) {
         elements[i].style.display = 'none';
@@ -151,4 +165,3 @@ document.getElementById('tags').addEventListener('input', function (e) {
         // TODO: empty the suggestion list
     }
 });
-
