@@ -71,14 +71,12 @@ router.get('/search', async (req, res) => {
 
         const options = {
             includeScore: true,
-            // Search in `author` and in `tags` array
             keys: ['name', 'description', 'categories', 'tags']
         };
     
         const fuse = new Fuse(formattedTools, options);
         const result = fuse.search(query);
-        // res.json(result)
-        const matches = result.filter(r => r.score < 0.6)
+        const matches = result.filter(r => r.score < 0.6); // score=0 is best match and score=1 is worst
         res.json(matches);
     } catch (err) {
         res.json({ message: err });
