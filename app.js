@@ -3,6 +3,7 @@ const app = express();
 import toolRoutes from './routes/toolRoutes.js';
 import tagsRoutes from './routes/tagRoutes.js';
 import categoriesRoutes from './routes/categoryRoutes.js';
+import metaRoutes from './routes/metaRoutes.js';
 
 app.use(json()); // for parsing application/json
 
@@ -28,6 +29,7 @@ sequelize.sync();
 app.use('/api/tools', toolRoutes);
 app.use('/api/categories', categoriesRoutes);
 app.use('/api/tags', tagsRoutes);
+app.use('/api/meta', metaRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
