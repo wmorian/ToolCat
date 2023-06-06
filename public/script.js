@@ -5,7 +5,7 @@ document.getElementById('searchButton').addEventListener('click', function () {
         .then(response => response.json())
         .then(data => {
             // Clear the search input
-            document.getElementById('searchInput').value = '';
+            // document.getElementById('searchInput').value = '';
 
             // Display the results
             console.log(data);

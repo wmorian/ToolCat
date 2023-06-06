@@ -3,10 +3,12 @@ import { Op } from "sequelize";
 import Tool from '../models/tool.js';
 import Category from '../models/category.js';
 import Tag from '../models/tag.js';
+import Fuse from 'fuse.js'
+
 const router = Router();
 
 router.get('/', async (req, res) => {
-    const tools = await Tool.findAll();
+    const tools = await Tool.findAll({ include: [Category, Tag]});
     res.json(tools);
 });
 
@@ -37,18 +39,50 @@ router.post('/', async (req, res) => {
 router.get('/search', async (req, res) => {
     const { query } = req.query;
 
-    const tools = await Tool.findAll({
-        where: {
-            [Op.or]: [
-                { name: { [Op.like]: `%${query}%` } },
-                { description: { [Op.like]: `%${query}%` } },
-                { '$Categories.name$': { [Op.like]: `%${query}%` } },
-                { '$Tags.name$': { [Op.like]: `%${query}%` } }
+    try {
+        const tools = await Tool.findAll({
+            attributes: ['name', 'description', 'creator', 'created_at'], // Only fetch these attributes
+            include: [
+                {
+                    model: Category,
+                    attributes: ['name'], // Only fetch the 'name' attribute
+                    through: { attributes: [] } // Do not fetch the junction table attributes
+                },
+                {
+                    model: Tag,
+                    attributes: ['name'], // Only fetch the 'name' attribute
+                    through: { attributes: [] } // Do not fetch the junction table attributes
+                },
             ]
-        },
-        include: [Category, Tag]
-    });
-    res.json(tools);
+        });
+
+        // Map through the results and convert categories and tags into a list of strings
+        const formattedTools = tools.map(tool => {
+            const categories = tool.Categories.map(category => category.name);
+            const tags = tool.Tags.map(tag => tag.name);
+
+            return {
+                "name": tool.name,
+                "description": tool.description,
+                categories, // Override the categories with the list of category names
+                tags, // Override the tags with the list of tag names
+            };
+        });
+
+        const options = {
+            includeScore: true,
+            // Search in `author` and in `tags` array
+            keys: ['name', 'description', 'categories', 'tags']
+        };
+    
+        const fuse = new Fuse(formattedTools, options);
+        const result = fuse.search(query);
+        // res.json(result)
+        const matches = result.filter(r => r.score < 0.6)
+        res.json(matches);
+    } catch (err) {
+        res.json({ message: err });
+    }
 });
 
 router.get('/:id([0-9]+)', async (req, res) => {
