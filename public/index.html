@@ -14,22 +14,10 @@
 <body>
     <div class="container">
         <h1 class="title">Tool Catalog</h1>
-        <input type="text" id="searchInput" class="search-input" placeholder="Search for tools..." />
         <div class="button-container">
-            <button id="searchButton">Search <i class="gg-search"></i> </button>
             <button id="addButton" class="add-button">Add Tool <i class="gg-add"></i> </button>
         </div>
-        <table id="searchResult">
-            <thead>
-                <tr>
-                    <th>Tool</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody id="data-output">
-                <!-- Prodcuts from javascript file in here. -->
-            </tbody>
-        </table>
+        <search-component></search-component>
     </div>
     <div id="myModal" class="modal">
         <div class="modal-content">

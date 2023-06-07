@@ -1,39 +1,73 @@
-document.getElementById('searchButton').addEventListener('click', performSearch);
-document.getElementById('searchInput').addEventListener('keydown', function (event) {
-    if (event.key === 'Enter') {
-        performSearch();
+class SearchComponent extends HTMLElement {
+    constructor() {
+        super();
     }
-});
 
-function performSearch() {
-    function showTable() {
-        const x = document.getElementById("searchResult");
-        if (x.style.display !== "flex") {
-            x.style.display = "flex";
-        }
+    connectedCallback() {
+        this.render();
+        this.setupEventListeners();
     }
-    showTable();
-    var searchText = document.getElementById('searchInput').value;
 
-    fetch('/api/tools/search?query=' + searchText)
-        .then(response => response.json())
-        .then(data => {
-            console.log(data);
-            let placeholder = document.querySelector("#data-output");
-            let out = "";
-            let tools = data;
-            for (let tool of tools) {
-                out += `
+    render() {
+        this.innerHTML = `
+        <input type="text" id="searchInput" />
+        <button id="searchButton">Search <i class="gg-search"></i></button>
+        <table id="searchResult">
+          <thead>
             <tr>
+              <th>Tool</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody id="data-output">
+            <!-- Products from JavaScript file in here. -->
+          </tbody>
+        </table>
+      `;
+    }
+
+    setupEventListeners() {
+        this.querySelector('#searchButton').addEventListener('click', this.performSearch.bind(this));
+        this.querySelector('#searchInput').addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                this.performSearch();
+            }
+        });
+    }
+
+    performSearch() {
+        const showTable = () => {
+            const x = this.querySelector("#searchResult");
+            if (x.style.display !== "flex") {
+                x.style.display = "flex";
+            }
+        };
+        showTable();
+        const searchText = this.querySelector('#searchInput').value;
+
+        fetch('/api/tools/search?query=' + searchText)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                let out = "";
+                let tools = data;
+                for (let tool of tools) {
+                    out += `
+              <tr>
                 <td><a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a></td>
                 <td>${tool.description}</td>
-            </tr>
-        `;
-            }
+              </tr>
+            `;
+                }
 
-            placeholder.innerHTML = out;
-        });
+                this.querySelector("#data-output").innerHTML = out;
+            });
+    }
 }
+
+customElements.define('search-component', SearchComponent);
+
+
 
 document.getElementById('addButton').addEventListener('click', function () {
     document.getElementById('webLink').value = "";
