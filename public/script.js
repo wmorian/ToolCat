@@ -1,12 +1,12 @@
 document.getElementById('searchButton').addEventListener('click', function () {
     // show search result table when search button is clicked
-    function myFunction() {
+    function showTable() {
         const x = document.getElementById("searchResult");
         if (x.style.display !== "flex") {
           x.style.display = "flex";
         }
       }
-    myFunction();
+    showTable();
     var searchText = document.getElementById('searchInput').value;
 
     fetch('/api/tools/search?query=' + searchText)
