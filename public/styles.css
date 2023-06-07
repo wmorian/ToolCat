@@ -23,7 +23,16 @@ body {
     flex-direction: column;
     padding: 2rem;
     width: 100%;
+    container-type: inline-size;
 }
+
+@container (min-width: 40rem) {
+    .container > * {
+        width: 40rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
 
 .title {
     margin-bottom: 20px;
