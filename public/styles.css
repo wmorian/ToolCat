@@ -101,7 +101,7 @@ button>i {
 }
 
 table {
-    width: fit-content;
+    width: auto;
     margin-top: 1rem;;
 }
 
