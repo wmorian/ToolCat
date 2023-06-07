@@ -1,4 +1,12 @@
 document.getElementById('searchButton').addEventListener('click', function () {
+    // show search result table when search button is clicked
+    function myFunction() {
+        const x = document.getElementById("searchResult");
+        if (x.style.display !== "flex") {
+          x.style.display = "flex";
+        }
+      }
+    myFunction();
     var searchText = document.getElementById('searchInput').value;
 
     fetch('/api/tools/search?query=' + searchText)
@@ -13,8 +21,8 @@ document.getElementById('searchButton').addEventListener('click', function () {
             let placeholder = document.querySelector("#data-output");
             let out = "";
             let tools = data;
-            for(let tool of tools){
-               out += `
+            for (let tool of tools) {
+                out += `
                   <tr>
                      <td>${tool.name}</td>
                      <td>${tool.description}</td>

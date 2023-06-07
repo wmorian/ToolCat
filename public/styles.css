@@ -102,7 +102,13 @@ button>i {
 
 table {
     width: auto;
-    margin-top: 1rem;;
+    margin-top: 1rem;
+    display: none;
+    flex-direction: column;
+}
+
+table > * {
+    width: 100%;
 }
 
 table,
