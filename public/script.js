@@ -1,39 +1,40 @@
-document.getElementById('searchButton').addEventListener('click', function () {
-    // show search result table when search button is clicked
+document.getElementById('searchButton').addEventListener('click', performSearch);
+document.getElementById('searchInput').addEventListener('keydown', function (event) {
+    if (event.key === 'Enter') {
+        performSearch();
+    }
+});
+
+function performSearch() {
     function showTable() {
         const x = document.getElementById("searchResult");
         if (x.style.display !== "flex") {
-          x.style.display = "flex";
+            x.style.display = "flex";
         }
-      }
+    }
     showTable();
     var searchText = document.getElementById('searchInput').value;
 
     fetch('/api/tools/search?query=' + searchText)
         .then(response => response.json())
         .then(data => {
-            // Clear the search input
-            // document.getElementById('searchInput').value = '';
-
-            // Display the results
             console.log(data);
-            // Here you can add code to display the data on the page
             let placeholder = document.querySelector("#data-output");
             let out = "";
             let tools = data;
             for (let tool of tools) {
                 out += `
-                  <tr>
-                     <td>${tool.name}</td>
-                     <td>${tool.description}</td>
-                     <td>${tool.link}</td>
-                  </tr>
-               `;
+          <tr>
+            <td>${tool.name}</td>
+            <td>${tool.description}</td>
+            <td>${tool.link}</td>
+          </tr>
+        `;
             }
 
             placeholder.innerHTML = out;
         });
-});
+}
 
 document.getElementById('addButton').addEventListener('click', function () {
     document.getElementById('webLink').value = "";
