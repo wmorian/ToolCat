@@ -8,7 +8,7 @@ import Fuse from 'fuse.js'
 const router = Router();
 
 router.get('/', async (req, res) => {
-    const tools = await Tool.findAll({ include: [Category, Tag]});
+    const tools = await Tool.findAll({ include: [Category, Tag] });
     res.json(tools);
 });
 
@@ -74,11 +74,25 @@ router.get('/search', async (req, res) => {
             includeScore: true,
             keys: ['name', 'description', 'categories', 'tags']
         };
-    
-        const fuse = new Fuse(formattedTools, options);
-        const result = fuse.search(query);
-        const matches = result.filter(r => r.score < 0.6); // score=0 is best match and score=1 is worst
-        res.json(matches);
+
+        if (!query) {
+            res.json(formattedTools);
+        } else {
+            const fuse = new Fuse(formattedTools, options);
+            const result = fuse.search(query);
+            const matches = result
+                .filter(r => r.score < 0.6) // score=0 is best match and score=1 is worst
+                .map(r => (
+                    {
+                        "name": r.item.name,
+                        "description": r.item.description,
+                        "link": r.item.link,
+                        "categories": r.item.categories, // Override the categories with the list of category names
+                        "tags": r.itemtags, // Override the tags with the list of tag names
+                    }
+                ))
+            res.json(matches);
+        }
     } catch (err) {
         res.json({ message: err });
     }
