@@ -56,14 +56,20 @@
 
                 <div class="hideInput">
                     <label for="categories">Categories:</label>
-                    <input type="text" id="categories" autocomplete="off" placeholder="Categories (comma separated)"
-                        class="add-tool-input" /><br>
+                    <div class="input-wrapper">
+                        <div id="categoryBadgeContainer" class="badge-container"></div>
+                        <input type="text" id="categoryAutoCompleteInput" onkeyup="autoComplete('category', this.value)" />
+                    </div>
+                    <div id="categoryAutoCompleteContainer"></div>
                 </div>
 
                 <div class="hideInput">
                     <label for="tags">Tags:</label>
-                    <input type="text" id="tags" autocomplete="off" placeholder="Tags (comma separated)"
-                        class="add-tool-input" /><br>
+                    <div class="input-wrapper">
+                        <div id="tagBadgeContainer" class="badge-container"></div>
+                        <input type="text" id="tagAutoCompleteInput" onkeyup="autoComplete('tag', this.value)" />
+                    </div>
+                    <div id="tagAutoCompleteContainer"></div>
                 </div>
 
                 <input type="submit" value="Add" class="add-button" />

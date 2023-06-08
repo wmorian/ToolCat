@@ -56,8 +56,8 @@ if (!fs.existsSync(dbFilePath)) {
 
 // Routes
 app.use('/api/tools', toolRoutes);
-app.use('/api/categories', categoriesRoutes);
-app.use('/api/tags', tagsRoutes);
+app.use('/api/category', categoriesRoutes);
+app.use('/api/tag', tagsRoutes);
 app.use('/api/meta', metaRoutes);
 
 const PORT = process.env.PORT || 5000;

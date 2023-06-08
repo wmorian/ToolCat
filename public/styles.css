@@ -1,4 +1,4 @@
-@import "reset.css" layer(reset);
+@import "reset.css"layer(reset);
 
 /* wireframe mode */
 /* *>* {
@@ -27,12 +27,12 @@ body {
 }
 
 @container (min-width: 40rem) {
-    .container > * {
+    .container>* {
         width: 40rem;
         margin-left: auto;
         margin-right: auto;
     }
-  }
+}
 
 .title {
     margin-bottom: 20px;
@@ -116,7 +116,7 @@ table {
     flex-direction: column;
 }
 
-table > * {
+table>* {
     width: 100%;
 }
 
@@ -206,4 +206,53 @@ form {
     .modal {
         padding-top: 50px;
     }
+}
+
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+.badge-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.badge span {
+    margin-right: 5px;
+}
+
+.badge span.remove {
+    cursor: pointer;
+}
+
+#tagAutoCompleteInput,
+#categoryAutoCompleteInput {
+    border: none;
+    flex-grow: 1;
+}
+
+#tagAutoCompleteInput:focus,
+#categoryAutoCompleteInput:focus {
+    outline: none;
+}
+
+.auto-complete-item {
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    padding: 5px;
 }
