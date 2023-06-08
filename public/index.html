@@ -31,13 +31,11 @@
             </tbody>
         </table>
     </div>
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Add a new Tool</h2>
-                <span class="close">&times;</span>
-            </div>
-            <form id="addToolForm">
+    <dialog id="myModal" class="modal">
+        <form id="addToolForm" method="dialog">
+            <button type="button" id="close-btn" class="close" aria-label="close" formnovalidate>X</button>
+            <fieldset>
+                <legend>Add a new Tool</legend>
                 <label for="webLink">Tool Web Link:</label>
                 <input class="add-tool-input" type="text" id="webLink" autocomplete="off" placeholder="Tool Web Link"
                     required /><br>
@@ -73,9 +71,9 @@
                 </div>
 
                 <input type="submit" value="Add" class="add-button" />
-            </form>
-        </div>
-    </div>
+            </fieldset>
+        </form>
+    </dialog>
 
     <script src="script.js"></script>
 </body>
