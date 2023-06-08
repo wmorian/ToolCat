@@ -36,6 +36,8 @@ function performSearch() {
 }
 
 document.getElementById('addButton').addEventListener('click', function () {
+
+    // Reset all elements
     document.getElementById('webLink').value = "";
 
     var elements = document.getElementsByClassName('hideInput');
@@ -44,6 +46,12 @@ document.getElementById('addButton').addEventListener('click', function () {
         elements[i].value = "";
     }
 
+    let catContainer = document.getElementById("categoryAutoCompleteContainer");
+    catContainer.innerHTML = "";
+    let tagContainer = document.getElementById("tagAutoCompleteContainer");
+    tagContainer.innerHTML = "";
+
+    // open modal
     var modal = document.getElementById("myModal");
     modal.showModal();
 });
@@ -69,15 +77,13 @@ window.onclick = function (event) {
 document.getElementById('addToolForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
-    var categoryList = document.getElementById('categories').value.split(',');
-    var tagList = document.getElementById('tags').value.split(',');
+    let catContainer = document.getElementById("categoryBadgeContainer");
+    let catBadges = Array.from(catContainer.getElementsByClassName("badge"));
+    let categories = catBadges.map(badge => ({ name: badge.firstChild.textContent.trim() }));
 
-    var categories = categoryList.map(function (category) {
-        return { name: category.trim() }
-    });
-    var tags = tagList.map(function (tag) {
-        return { name: tag.trim() }
-    });
+    let tagContainer = document.getElementById("tagBadgeContainer");
+    let tagBadges = Array.from(tagContainer.getElementsByClassName("badge"));
+    let tags = tagBadges.map(badge => ({ name: badge.firstChild.textContent.trim() }));
 
     var tool = {
         name: document.getElementById('name').value,
@@ -133,44 +139,45 @@ document.getElementById('webLink').addEventListener('change', function (e) {
         });
 });
 
-document.getElementById('categories').addEventListener('input', function (e) {
-    let query = e.target.value;
 
-    // TODO: empty the suggestion list
+function autoComplete(type, query) {
+    let container = document.getElementById(type + "AutoCompleteContainer");
+    container.innerHTML = "";
 
     if (query.length >= 2) {
-        fetch(`/api/categories/search?query=${query}`)
+        fetch(`/api/${type}/search?query=${query}`)
             .then(response => response.json())
             .then(data => {
-
-                // TODO: How to show the category suggestions
                 console.log(data)
+                data.forEach(item => {
+                    let div = document.createElement("div");
+                    div.className = "auto-complete-item";
+                    div.onclick = function () {
+                        addBadge(type, item);
+                    };
+                    div.innerHTML = item;
+                    container.appendChild(div);
+                });
             })
             .catch(error => {
                 console.error('Error:', error);
             });
-    } else {
-        // TODO: empty the suggestion list
     }
-});
+}
 
-document.getElementById('tags').addEventListener('input', function (e) {
-    let query = e.target.value;
+function addBadge(type, value) {
+    let container = document.getElementById(type + "BadgeContainer");
+    let badge = document.createElement("div");
+    badge.className = "badge";
+    badge.innerHTML = `<span>${value}</span><span class="remove" onclick="removeBadge(this, '${type}')">x</span>`;
+    container.appendChild(badge);
+    let autoCompleteInput = document.getElementById(type + "AutoCompleteInput");
+    autoCompleteInput.value = "";
+    autoCompleteInput.focus();
+    document.getElementById(type + "AutoCompleteContainer").innerHTML = "";
+}
 
-    // TODO: empty the suggestion list
-
-    if (query.length >= 2) {
-        fetch(`/api/tags/search?query=${query}`)
-            .then(response => response.json())
-            .then(data => {
-
-                // TODO: how to show the tag suggestions
-                console.log(data)
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-    } else {
-        // TODO: empty the suggestion list
-    }
-});
+function removeBadge(element, type) {
+    let container = document.getElementById(type + "BadgeContainer");
+    container.removeChild(element.parentElement);
+}
