@@ -32,52 +32,10 @@
         </table>
     </div>
     <dialog id="myModal" class="modal">
-    <form id="addToolForm" method="dialog">
-        <button type="button" id="close-btn" class="close" aria-label="close" formnovalidate>X</button>
-        <fieldset>
-            <legend>Add a new Tool</legend>
-            <label for="webLink">Tool Web Link:</label>
-            <input class="add-tool-input" type="text" id="webLink" autocomplete="off" placeholder="Tool Web Link"
-                required /><br>
-
-            <div class="hideInput">
-                <label for="name">Tool Name:</label>
-                <input type="text" id="name" autocomplete="off" placeholder="Tool Name" required
-                    class="add-tool-input" /><br>
-            </div>
-
-            <div class="hideInput">
-                <label for="description">Tool Description:</label>
-                <textarea id="description" autocomplete="off" placeholder="Tool Description"
-                    class="add-tool-input"></textarea><br>
-            </div>
-
-            <div class="hideInput">
-                <label for="categories">Categories:</label>
-                <div class="input-wrapper">
-                    <div id="categoryBadgeContainer" class="badge-container"></div>
-                    <input type="text" id="categoryAutoCompleteInput" onkeyup="autoComplete('category', this.value)" />
-                </div>
-                <div id="categoryAutoCompleteContainer"></div>
-            </div>
-
-            <div class="hideInput">
-                <label for="tags">Tags:</label>
-                <div class="input-wrapper">
-                    <div id="tagBadgeContainer" class="badge-container"></div>
-                    <input type="text" id="tagAutoCompleteInput" onkeyup="autoComplete('tag', this.value)" />
-                </div>
-                <div id="tagAutoCompleteContainer"></div>
-            </div>
-
-            <input type="submit" value="Add" class="add-button" />
-        </fieldset>
-    </form>
-</dialog>
-    <!--     <dialog id="myModal" class="modal">
-            <form id="addToolForm" method="dialog">
-                <h2>Add a new Tool</h2>
-                <button id="close-btn" aria-label="close" formnovalidate>X</button>
+        <form id="addToolForm" method="dialog">
+            <button type="button" id="close-btn" class="close" aria-label="close" formnovalidate>X</button>
+            <fieldset>
+                <legend>Add a new Tool</legend>
                 <label for="webLink">Tool Web Link:</label>
                 <input class="add-tool-input" type="text" id="webLink" autocomplete="off" placeholder="Tool Web Link"
                     required /><br>
@@ -96,19 +54,27 @@
 
                 <div class="hideInput">
                     <label for="categories">Categories:</label>
-                    <input type="text" id="categories" autocomplete="off" placeholder="Categories (comma separated)"
-                        class="add-tool-input" /><br>
+                    <div class="input-wrapper">
+                        <div id="categoryBadgeContainer" class="badge-container"></div>
+                        <input type="text" id="categoryAutoCompleteInput"
+                            onkeyup="autoComplete('category', this.value)" />
+                    </div>
+                    <div id="categoryAutoCompleteContainer"></div>
                 </div>
 
                 <div class="hideInput">
                     <label for="tags">Tags:</label>
-                    <input type="text" id="tags" autocomplete="off" placeholder="Tags (comma separated)"
-                        class="add-tool-input" /><br>
+                    <div class="input-wrapper">
+                        <div id="tagBadgeContainer" class="badge-container"></div>
+                        <input type="text" id="tagAutoCompleteInput" onkeyup="autoComplete('tag', this.value)" />
+                    </div>
+                    <div id="tagAutoCompleteContainer"></div>
                 </div>
 
                 <input type="submit" value="Add" class="add-button" />
-            </form>
-    </dialog> -->
+            </fieldset>
+        </form>
+    </dialog>
 
     <script src="script.js"></script>
 </body>
