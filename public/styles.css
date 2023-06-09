@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     padding: 2rem 2rem 0 2rem;
     width: 100%;
+    overflow: auto;
     container-type: normal;
 }
 
@@ -108,6 +109,7 @@ table {
     margin-top: 1rem;
     display: none;
     flex-direction: column;
+    overflow: auto;
 }
 
 table>* {
@@ -141,7 +143,7 @@ tr {
 
 @media screen and (min-width: 600px) {
     .modal {
-        margin: auto;
+        margin: 15vh auto 0 auto;
     }
 }
 
