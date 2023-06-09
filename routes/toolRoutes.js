@@ -76,7 +76,8 @@ router.get('/search', async (req, res) => {
         };
 
         if (!query) {
-            res.json(formattedTools);
+            const sorted = formattedTools.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()))
+            res.json(sorted);
         } else {
             const fuse = new Fuse(formattedTools, options);
             const result = fuse.search(query);
