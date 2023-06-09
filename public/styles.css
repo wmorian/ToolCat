@@ -26,9 +26,10 @@ body {
     width: 100%;
     overflow: auto;
     container-type: normal;
+    container-name: container;
 }
 
-@container (min-width: 40rem) {
+@container container (min-width: 40rem) {
     .container>* {
         width: 40rem;
         margin-left: auto;
@@ -36,13 +37,28 @@ body {
     }
 }
 
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    outline: 1px solid #D8D8D8;
+    margin-bottom: 1rem;
+}
+
 .title {
-    margin-bottom: 20px;
     font-size: 2rem;
     font-weight: 900;
-    outline: 1px solid #D8D8D8;
     padding: 1rem;
     text-transform: uppercase;
+}
+
+.search-field {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.toolbar > .title, .search-field > .search-input {
+    flex: 1;
 }
 
 .hideInput {
@@ -53,6 +69,13 @@ body {
     border: 2px solid black;
     border-radius: 100vmax;
     padding: .5rem 0 .5rem .75rem;
+    height: 60px;
+}
+
+@media screen and (min-width: 600px) {
+    .search-input {
+        height: auto;
+    }
 }
 
 .button-container {
@@ -87,6 +110,7 @@ button>i {
     background-color: #06D6A0;
     opacity: 0.6;
     transition: 0.3s;
+    max-width: 300px;
 }
 
 .add-button:hover {
@@ -98,10 +122,37 @@ button>i {
     background-color: #54C6EB;
     opacity: 0.6;
     transition: 0.3s;
+    position: absolute;
+    margin: 10px;
+    right: 0;
+    width: 80px;
+    height: 40px;
 }
 
 #searchButton:hover {
     opacity: 1;
+}
+
+@media screen and (min-width: 600px) {
+    #searchButton {
+        width: 20vw;
+        max-width: 300px;
+        height: calc(100% - 20px);
+    }
+}
+
+.search-label {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .search-label {
+        display: block;
+    }
+}
+
+.gg-search {
+    margin: 0 !important;
 }
 
 table {
