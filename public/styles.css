@@ -12,6 +12,7 @@ html {
 
 
 body {
+    line-height: clamp(1.25rem, 2.5vw, 2rem) !important;
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -26,9 +27,10 @@ body {
     width: 100%;
     overflow: auto;
     container-type: normal;
+    container-name: container;
 }
 
-@container (min-width: 40rem) {
+@container container (min-width: 40rem) {
     .container>* {
         width: 40rem;
         margin-left: auto;
@@ -36,13 +38,28 @@ body {
     }
 }
 
-.title {
-    margin-bottom: 20px;
-    font-size: 2rem;
-    font-weight: 900;
+.toolbar {
+    display: flex;
+    justify-content: space-between;
     outline: 1px solid #D8D8D8;
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 900;
     padding: 1rem;
     text-transform: uppercase;
+}
+
+.search-field {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.toolbar > .title, .search-field > .search-input {
+    flex: 1;
 }
 
 .hideInput {
@@ -52,7 +69,14 @@ body {
 .search-input {
     border: 2px solid black;
     border-radius: 100vmax;
-    padding: .5rem 0 .5rem .75rem;
+    padding: .5rem 0 .5rem 1rem;
+    height: 60px;
+}
+
+@media screen and (min-width: 600px) {
+    .search-input {
+        height: auto;
+    }
 }
 
 .button-container {
@@ -87,6 +111,7 @@ button>i {
     background-color: #06D6A0;
     opacity: 0.6;
     transition: 0.3s;
+    max-width: 300px;
 }
 
 .add-button:hover {
@@ -98,10 +123,37 @@ button>i {
     background-color: #54C6EB;
     opacity: 0.6;
     transition: 0.3s;
+    position: absolute;
+    margin: 10px;
+    right: 0;
+    width: 80px;
+    height: 40px;
 }
 
 #searchButton:hover {
     opacity: 1;
+}
+
+@media screen and (min-width: 600px) {
+    #searchButton {
+        width: 20vw;
+        max-width: 300px;
+        height: calc(100% - 20px);
+    }
+}
+
+.search-label {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .search-label {
+        display: block;
+    }
+}
+
+.gg-search {
+    margin: 0 !important;
 }
 
 table {
@@ -133,6 +185,25 @@ tr {
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr;
+}
+
+.row {
+    padding: .5rem .5rem 0 .5rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.row:hover {
+    filter: invert(80);
+}
+
+.row:last-of-type {
+    padding-bottom: .5rem;
+}
+
+.row > td {
+    background-color: #e2e2e2;
+    border: 0;
+    padding: .5rem;
 }
 
 .modal {

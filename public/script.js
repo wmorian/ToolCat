@@ -24,8 +24,13 @@ function performSearch() {
             let tools = data;
             for (let tool of tools) {
                 out += `
-            <tr>
-                <td><a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a></td>
+            <tr class="row">
+                <td>
+                    <i>0</i>
+                    <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
+                    <span>Web Development</span>
+                    <span>CSS</span>
+                </td>
                 <td>${tool.description}</td>
             </tr>
         `;
