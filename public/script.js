@@ -165,6 +165,16 @@ function autoComplete(type, query) {
     }
 }
 
+// allow to add custom tags 
+document.getElementById("tagAutoCompleteInput").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+        if (this.value.length > 2) {
+            addBadge("tag", this.value);
+        }
+    }
+});
+
 function addBadge(type, value) {
     let container = document.getElementById(type + "BadgeContainer");
     let badge = document.createElement("div");
