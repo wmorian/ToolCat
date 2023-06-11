@@ -28,8 +28,8 @@ function performSearch() {
                 <td>
                     <i>0</i>
                     <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
-                    <span>Web Development</span>
-                    <span>CSS</span>
+                    <span class="badge result">Web Development</span>
+                    <span class="badge result">CSS</span>
                 </td>
                 <td>${tool.description}</td>
             </tr>

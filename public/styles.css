@@ -71,6 +71,7 @@ body {
     border-radius: 100vmax;
     padding: .5rem 0 .5rem 1rem;
     height: 60px;
+    min-height: 60px;
 }
 
 @media screen and (min-width: 600px) {
@@ -206,6 +207,10 @@ tr {
     padding: .5rem;
 }
 
+.badge.result {
+    width: fit-content;
+}
+
 .modal {
     width: 100vw;
     max-width: max(75vw, 600px);
@@ -307,10 +312,10 @@ form {
 .badge {
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 5px 10px;
     background-color: #007bff;
     color: white;
-    border-radius: 5px;
+    border-radius: 50px;
     margin-right: 5px;
 }
 
@@ -320,6 +325,15 @@ form {
 
 .badge span.remove {
     cursor: pointer;
+    background-color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    color: #007bff;
+    margin: 0;
+    text-align: center;
+    line-height: 1.15rem;
+    font-weight: bold;
 }
 
 #tagAutoCompleteInput,
