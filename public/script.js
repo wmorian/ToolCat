@@ -110,7 +110,7 @@ document.getElementById('addToolForm').addEventListener('submit', function (e) {
         .then(data => {
             console.log('Success:', data);
             var modal = document.getElementById("myModal");
-            modal.style.display = "none";
+            modal.close();
         })
         .catch((error) => {
             console.error('Error:', error);
@@ -170,7 +170,7 @@ function autoComplete(type, query) {
     }
 }
 
-// allow to add custom tags 
+// allow to add custom tags
 document.getElementById("tagAutoCompleteInput").addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
         event.preventDefault();
