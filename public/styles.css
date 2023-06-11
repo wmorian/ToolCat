@@ -209,6 +209,7 @@ tr {
 
 .badge.result {
     width: fit-content;
+    margin-top: .25rem;
 }
 
 .modal {

@@ -26,7 +26,6 @@ function performSearch() {
                 out += `
             <tr class="row">
                 <td>
-                    <i>0</i>
                     <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
                     <span class="badge result">Web Development</span>
                     <span class="badge result">CSS</span>
