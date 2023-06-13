@@ -185,14 +185,13 @@ table>* {
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid ;
     border-collapse: collapse;
 }
 
 thead {
     position: sticky;
     top: 0;
-    background-color: white;
 }
 
 tr {
@@ -214,7 +213,6 @@ tr {
 }
 
 .row > td {
-    background-color: #e2e2e2;
     border: 0;
     padding: .5rem;
     position: relative;
@@ -257,7 +255,6 @@ dialog::backdrop {
 }
 
 .modal-content {
-    background-color: #fefefe;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
