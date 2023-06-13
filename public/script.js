@@ -26,11 +26,14 @@ function performSearch() {
                 out += `
             <tr class="row">
                 <td>
-                    <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
+                <img src="https://loremflickr.com/300/300?random=1" />
+                <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
+                </td>
+                <td>
+                    <p>${tool.description}</p>
                     <span class="badge result">Web Development</span>
                     <span class="badge result">CSS</span>
                 </td>
-                <td>${tool.description}</td>
             </tr>
         `;
             }

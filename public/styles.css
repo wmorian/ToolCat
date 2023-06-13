@@ -66,6 +66,10 @@ body {
     display: none;
 }
 
+fieldset div:last-of-type:has(.hideInput) {
+
+}
+
 .search-input {
     border: 2px solid black;
     border-radius: 100vmax;
@@ -136,9 +140,10 @@ button>i {
 }
 
 @media screen and (min-width: 600px) {
+    #searchButton, .add-button {
+        width: clamp(200px, 20vw, 300px);
+    }
     #searchButton {
-        width: 20vw;
-        max-width: 300px;
         height: calc(100% - 20px);
     }
 }
@@ -194,7 +199,6 @@ tr {
 }
 
 .row:hover {
-    filter: invert(80);
 }
 
 .row:last-of-type {
@@ -205,6 +209,20 @@ tr {
     background-color: #e2e2e2;
     border: 0;
     padding: .5rem;
+    position: relative;
+}
+
+.row a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 20ch;
+    display: flex;
+}
+
+.row img {
+    width: clamp(50px, 20vw, 200px);
+    height: auto;
 }
 
 .badge.result {
