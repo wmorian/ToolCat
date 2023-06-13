@@ -31,8 +31,8 @@ function performSearch() {
                 </td>
                 <td>
                     <p>${tool.description}</p>
-                    <span class="badge result">Web Development</span>
-                    <span class="badge result">CSS</span>
+                    <span class="badge result">${tool.categories}</span>
+                    <span class="badge result">${tool.tags}</span>
                 </td>
             </tr>
         `;
