@@ -113,23 +113,27 @@ button>i {
 }
 
 .add-button {
-    background-color: #06D6A0;
+    background-color: #00f99d;
     transition: all 0.3s;
     max-width: 300px;
     position: fixed;
     right: 2rem;
     bottom: 5vh;
     z-index: 999;
+    box-shadow: 0 0 15px 2.5px #00f99d;
+    color: black;
 }
 
 dialog .add-button {
     position: unset;
     margin-top: 1rem;
+    box-shadow: none;
 }
 
 .add-button:hover {
     opacity: 1;
-    background-color: hsl(164, 95%, 33%);
+    background-color: #beff0d;
+    box-shadow: 0 0 25px 7.5px #beff0d;
 }
 
 #searchButton {
