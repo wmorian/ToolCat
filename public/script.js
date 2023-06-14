@@ -23,14 +23,14 @@ function performSearch() {
             let out = "";
             let tools = data;
             for (let tool of tools) {
-                let categoriesBadges = tool.categories && tool.categories.length > 0 
-                    ? tool.categories.map(category => `<span class="badge result">${category}</span>`).join(' ') 
+                let categoriesBadges = tool.categories && tool.categories.length > 0
+                    ? tool.categories.map(category => `<span class="badge result">${category}</span>`).join(' ')
                     : '';
-            
-                let tagsBadges = tool.tags && tool.tags.length > 0 
-                    ? tool.tags.map(tag => `<span class="badge-small result">${tag}</span>`).join(' ') 
+
+                let tagsBadges = tool.tags && tool.tags.length > 0
+                    ? tool.tags.map(tag => `<span class="badge-small result">${tag}</span>`).join(' ')
                     : '';
-            
+
                 out += `
                     <tr class="row">
                         <td>
@@ -47,6 +47,9 @@ function performSearch() {
             }
 
             placeholder.innerHTML = out;
+        })
+        .catch(err => {
+            showError(err);
         });
 }
 
@@ -125,6 +128,7 @@ document.getElementById('addToolForm').addEventListener('submit', function (e) {
         })
         .catch((error) => {
             console.error('Error:', error);
+            showError(error);
         });
 });
 
@@ -207,4 +211,11 @@ function addBadge(type, value) {
 function removeBadge(element, type) {
     let container = document.getElementById(type + "BadgeContainer");
     container.removeChild(element.parentElement);
+}
+
+function showError(msg) {
+    var x = document.getElementById("snackbar");
+    x.innerHTML = msg;
+    x.className = "show";
+    setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
 }
