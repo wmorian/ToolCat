@@ -152,6 +152,13 @@ dialog .add-button {
     height: 40px;
     align-self: flex-end;
     margin-top: -50px;
+    color: white;
+}
+
+@media (prefers-color-scheme: light) {
+    #searchButton {
+        outline: 1px solid black;
+    }
 }
 
 #searchButton:hover {
