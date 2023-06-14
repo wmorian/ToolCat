@@ -157,7 +157,8 @@ dialog .add-button {
 
 @media (prefers-color-scheme: light) {
     #searchButton {
-        outline: 1px solid black;
+        outline: 1px solid black
+        ;
     }
 }
 
@@ -433,48 +434,44 @@ form {
     padding: 5px;
 }
 
-
-/*  SNACHBAR START */
+/* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar {
-    visibility: hidden;
     min-width: 250px;
     background-color: #ca1b1b;
     color: #fff;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 10px;
     padding: 16px;
-    position: fixed;
-    z-index: 1000;
-    left: 50%;
-    bottom: 30px;
     font-size: 17px;
-    transform: translateX(-50%);
+    margin: auto auto 2vh auto;
+    border: none;
 }
-  
+
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
   #snackbar.show {
-    visibility: visible;
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
   }
-  
-  @-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;} 
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
     to {bottom: 30px; opacity: 1;}
   }
-  
+
   @keyframes fadein {
     from {bottom: 0; opacity: 0;}
     to {bottom: 30px; opacity: 1;}
   }
-  
+
   @-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;} 
-    to {bottom: 0; opacity: 0;}
-  }
-  
-  @keyframes fadeout {
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
   }
 
-  /* SNACKBAR END */
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
