@@ -58,7 +58,7 @@ body {
     grid-template-rows: 1fr 1fr;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
     .search {
         grid-template-columns: 2fr 1fr;
         grid-template-rows: auto;
@@ -157,8 +157,7 @@ dialog .add-button {
 
 @media (prefers-color-scheme: light) {
     #searchButton {
-        outline: 1px solid black
-        ;
+        outline: 1px solid black;
     }
 }
 
@@ -195,6 +194,12 @@ dialog .add-button {
     justify-content: space-evenly;
     align-items: center;
     height: 60px;
+    border-radius: 40px;
+    background-color: #888;
+}
+.filter-container > li {
+    line-height: initial;
+    font-size: .75rem;
 }
 
 table {
@@ -454,6 +459,7 @@ form {
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
   }
+
 
 /* Animations to fade the snackbar in and out */
 @-webkit-keyframes fadein {
