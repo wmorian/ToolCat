@@ -35,7 +35,7 @@ function performSearch() {
                     <tr class="row">
                         <td>
                         <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
-                        <img src="https://loremflickr.com/300/300/tool?random=${Math.random()}" />
+                        <img src=${tool.image} />
                         </td>
                         <td>
                             <p>${tool.description}</p>
@@ -104,6 +104,7 @@ document.getElementById('addToolForm').addEventListener('submit', function (e) {
         name: document.getElementById('name').value,
         link: document.getElementById('webLink').value,
         description: document.getElementById('description').value,
+        image: document.getElementById('image').src,
         creator: "admin", // for now
         categories: categories,
         tags: tags
@@ -148,6 +149,7 @@ document.getElementById('webLink').addEventListener('change', function (e) {
             // populate the inputs with the response data
             document.getElementById('name').value = data.title || '';
             document.getElementById('description').value = data.description || '';
+            document.getElementById('image').src = data.ogImage || '';
         })
         .catch((error) => {
             console.error('Error:', error);

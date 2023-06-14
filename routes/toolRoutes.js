@@ -41,7 +41,7 @@ router.get('/search', async (req, res) => {
 
     try {
         const tools = await Tool.findAll({
-            attributes: ['name', 'description', 'link', 'creator', 'created_at'], // Only fetch these attributes
+            attributes: ['name', 'description', 'link', 'image', 'creator', 'created_at'], // Only fetch these attributes
             include: [
                 {
                     model: Category,
@@ -65,6 +65,7 @@ router.get('/search', async (req, res) => {
                 "name": tool.name,
                 "description": tool.description,
                 "link": tool.link,
+                "image": tool.image,
                 categories, // Override the categories with the list of category names
                 tags, // Override the tags with the list of tag names
             };
