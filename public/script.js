@@ -157,6 +157,7 @@ document.getElementById('webLink').addEventListener('change', function (e) {
         })
         .catch((error) => {
             console.error('Error:', error);
+            showError(error);
         });
 });
 
