@@ -64,9 +64,9 @@ document.getElementById('addButton').addEventListener('click', function () {
         elements[i].value = "";
     }
 
-    let catContainer = document.getElementById("categoryAutoCompleteContainer");
+    let catContainer = document.getElementById("categoryBadgeContainer");
     catContainer.innerHTML = "";
-    let tagContainer = document.getElementById("tagAutoCompleteContainer");
+    let tagContainer = document.getElementById("tagBadgeContainer");
     tagContainer.innerHTML = "";
 
     // open modal
