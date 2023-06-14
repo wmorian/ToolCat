@@ -23,19 +23,27 @@ function performSearch() {
             let out = "";
             let tools = data;
             for (let tool of tools) {
+                let categoriesBadges = tool.categories && tool.categories.length > 0 
+                    ? tool.categories.map(category => `<span class="badge result">${category}</span>`).join(' ') 
+                    : '';
+            
+                let tagsBadges = tool.tags && tool.tags.length > 0 
+                    ? tool.tags.map(tag => `<span class="badge-small result">${tag}</span>`).join(' ') 
+                    : '';
+            
                 out += `
-            <tr class="row">
-                <td>
-                <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
-                <img src="https://loremflickr.com/300/300/tool?random=${Math.random()}" />
-                </td>
-                <td>
-                    <p>${tool.description}</p>
-                    <span class="badge result">${tool.categories}</span>
-                    <span class="badge result">${tool.tags}</span>
-                </td>
-            </tr>
-        `;
+                    <tr class="row">
+                        <td>
+                        <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
+                        <img src="https://loremflickr.com/300/300/tool?random=${Math.random()}" />
+                        </td>
+                        <td>
+                            <p>${tool.description}</p>
+                            ${categoriesBadges}
+                            ${tagsBadges}
+                        </td>
+                    </tr>
+                `;
             }
 
             placeholder.innerHTML = out;

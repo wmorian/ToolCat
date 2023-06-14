@@ -257,6 +257,7 @@ tr {
     height: auto;
 }
 
+.badge-small.result,
 .badge.result {
     width: fit-content;
     margin-top: .25rem;
@@ -378,10 +379,23 @@ form {
     margin-right: 5px;
 }
 
+.badge-small {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #067c3b;
+    color: white;
+    border-radius: 50px;
+    margin-right: 5px;
+    font-size: small;
+}
+
+.badge-small span,
 .badge span {
     margin-right: 5px;
 }
 
+.badge-small span.remove,
 .badge span.remove {
     cursor: pointer;
     background-color: white;
