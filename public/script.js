@@ -26,8 +26,8 @@ function performSearch() {
                 out += `
             <tr class="row">
                 <td>
-                <img src="https://loremflickr.com/300/300?random=1" />
                 <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
+                <img src="https://loremflickr.com/300/300/tool?random=${Math.random()}" />
                 </td>
                 <td>
                     <p>${tool.description}</p>

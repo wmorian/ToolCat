@@ -3,6 +3,7 @@ const router = Router();
 
 import axios from 'axios';
 import * as cheerio from 'cheerio';
+import url from 'url';
 
 const getMetaData = async (url) => {
     try {
@@ -15,6 +16,15 @@ const getMetaData = async (url) => {
             ogDescription: $('meta[property="og:description"]').attr('content'),
             ogImage: $('meta[property="og:image"]').attr('content'),
         };
+
+        // Check if ogImage is not present
+        if (!metaTags.ogImage) {
+            const favicon = $('link[rel="icon"]').attr('href');
+            if (favicon) {
+                const absoluteUrl = url.resolve(url, favicon);
+                metaTags.ogImage = absoluteUrl;
+            }
+        }
 
         return metaTags;
     } catch (error) {
