@@ -257,8 +257,10 @@ tr {
 
 .row > td {
     border: 0;
-    padding: .5rem;
+    padding: .5rem .5rem 1rem .5rem;
     position: relative;
+    display: grid;
+    gap: 1rem;
 }
 
 .row a {
@@ -267,11 +269,56 @@ tr {
     text-overflow: ellipsis;
     max-width: 20ch;
     display: flex;
+    text-decoration: none;
+    font-weight: 700;
+    color: inherit;
+    background:
+    linear-gradient(
+        to right,
+        rgba(100, 200, 200, 1),
+        rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+        to right,
+        rgba(255, 0, 0, 1),
+        rgba(255, 0, 180, 1),
+        rgba(0, 100, 200, 1)
+    );
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 }
 
-.row img {
-    width: clamp(50px, 20vw, 200px);
-    height: auto;
+.row a:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+.img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    outline: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.img-container img {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.img-circle {
+    clip-path: circle(30%);
 }
 
 .badge-small.result,
@@ -389,11 +436,12 @@ form {
 .badge {
     display: flex;
     align-items: center;
-    padding: 5px 10px;
+    padding: 5px 20px;
     background-color: #007bff;
     color: white;
     border-radius: 50px;
     margin-right: 5px;
+    font-size: .75rem;
 }
 
 .badge-small {
@@ -420,10 +468,14 @@ form {
     width: 20px;
     height: 20px;
     color: #007bff;
-    margin: 0;
     text-align: center;
-    line-height: 1.15rem;
+    line-height: 1rem;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    margin: auto;
 }
 
 #tagAutoCompleteInput,

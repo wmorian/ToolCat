@@ -35,7 +35,9 @@ function performSearch() {
                     <tr class="row">
                         <td>
                         <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
-                        <img src=${tool.image} />
+                        <div class="img-container">
+                            <img src=${tool.image} class="img-circle" />
+                        </div>
                         </td>
                         <td>
                             <p>${tool.description}</p>
