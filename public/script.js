@@ -41,8 +41,10 @@ function performSearch() {
                         </td>
                         <td>
                             <p>${tool.description}</p>
+                            <div class="filter">
                             ${categoriesBadges}
                             ${tagsBadges}
+                            </div>
                         </td>
                     </tr>
                 `;
