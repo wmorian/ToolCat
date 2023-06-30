@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --dark: #212121; /* hsl( 0, 0%, 13 %) */
+            --dark-mid: #707070;
+            --dark-light: #cccccc;
+            --light-mid: #ebebeb;
+            --light: #fafafa;
+            --purple-dark: #6668cc;
+            --purple: #8082ff;
+            --purple-light: hsl(239, 100%, 80%);
+            --green-dark: hsl(166, 100%, 27%);
+            --green: #00e6b0;
+            --green-light: hsl(166, 82%, 67%);
+        }
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+        }
+        .dark {
+            background-color: var(--dark);
+            color: var(--light);
+        }
+        .purple {
+            background-color: var(--purple);
+            color: var(--light);
+        }
+        .purple:hover {
+            background-color: var(--purple-dark);
+        }
+        .green {
+            background-color: var(--green);
+            color: var(--dark);
+        }
+        .green:hover {
+            background-color: var(--green-dark);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <h2>Lorem ipsum dolor consectetur adipisicing sit amet consectetur adipisicing elit.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magni odit pariatur praesentium
+            officiis.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eos perferendis ratione soluta explicabo
+            ad quo reiciendis harum. Veniam nemo praesentium vel mollitia cupiditate ut iure? Totam blanditiis doloribus
+            unde?</p>
+        <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate fuga dolore
+            repellat laboriosam sed minima, est suscipit enim. Nostrum cumque consectetur neque nisi labore repudiandae
+            saepe sed quod. Optio?</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <button class="btn">This is a button</button>
+        <button class="purple">This is a button</button>
+        <button class="green">This is a button</button>
+    </section>
+    <section class="dark">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <h2>Lorem ipsum dolor consectetur adipisicing sit amet consectetur adipisicing elit.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magni odit pariatur praesentium
+            officiis.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, eos perferendis ratione soluta explicabo
+            ad quo reiciendis harum. Veniam nemo praesentium vel mollitia cupiditate ut iure? Totam blanditiis doloribus
+            unde?</p>
+        <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cupiditate fuga dolore
+            repellat laboriosam sed minima, est suscipit enim. Nostrum cumque consectetur neque nisi labore repudiandae
+            saepe sed quod. Optio?</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <button class="btn">This is a button</button>
+        <button class="purple">This is a button</button>
+        <button class="green">This is a button</button>
+    </section>
+</body>
+
+</html>

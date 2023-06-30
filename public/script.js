@@ -225,3 +225,15 @@ function showError(msg) {
     setTimeout(function () { x.showModal(); }, 1000);
     setTimeout(function () { x.close(); }, 3000);
 }
+
+// TODO: theme light/dark mode switch
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.getElementById('toggleButton');
+    const rootElement = document.documentElement;
+    const htmlElement = document.querySelector('body');
+
+    toggleButton.addEventListener('click', () => {
+        rootElement.classList.toggle('light-mode');
+        htmlElement.classList.toggle('light-mode');
+    });
+});
