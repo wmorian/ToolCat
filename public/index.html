@@ -3,12 +3,12 @@
 
 <head>
     <title>Tool Catalog</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link type="text/css" href="styles.css" rel="stylesheet">
     <!-- css.gg -->
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/add.css' rel='stylesheet'>
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/check-o.css' rel='stylesheet'>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/search.css" rel="stylesheet">
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/add.css" rel="stylesheet">
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/check-o.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <div clas="search-container">
             <div class="search">
                 <div class="search-field">
-                    <input type="text" id="searchInput" class="search-input" placeholder="Search for tools..." />
+                    <input id="searchInput" class="search-input" type="text" placeholder="Search for tools...">
                     <button id="searchButton">
                         <span class="search-label">Search</span>
                         <i class="gg-search"></i>
@@ -41,34 +41,31 @@
     </div>
     <dialog id="myModal" class="modal">
         <form id="addToolForm" method="dialog" autocomplete="off">
-            <button type="button" id="close-btn" class="close" aria-label="close" formnovalidate>X</button>
+            <button id="close-btn" class="close" type="button" aria-label="close" formnovalidate>X</button>
             <fieldset>
                 <legend>Add a new Tool</legend>
                 <label for="webLink">Tool Web Link:</label>
-                <input class="add-tool-input" type="text" id="webLink" autocomplete="off" placeholder="Tool Web Link"
-                    required /><br>
+                <input id="webLink" class="add-tool-input" type="text" autocomplete="off" placeholder="Tool Web Link" required><br>
 
                 <div class="hideInput">
                     <label for="name">Tool Name:</label>
-                    <input type="text" id="name" autocomplete="off" placeholder="Tool Name" required
-                        class="add-tool-input" /><br>
+                    <input id="name" class="add-tool-input" type="text" autocomplete="off" placeholder="Tool Name" required><br>
                 </div>
 
                 <div class="hideInput">
                     <label for="description">Tool Description:</label>
-                    <textarea id="description" autocomplete="off" placeholder="Tool Description"
-                        class="add-tool-input"></textarea><br>
+                    <textarea id="description" class="add-tool-input" autocomplete="off" placeholder="Tool Description"></textarea><br>
                 </div>
 
                 <div class="hideInput">
-                    <img id="image" src="" />
+                    <img id="image" src="#">
                 </div>
 
                 <div class="hideInput">
                     <label for="categories">Categories:</label>
                     <div class="input-wrapper">
                         <div id="categoryBadgeContainer" class="badge-container"></div>
-                        <input type="text" id="categoryAutoCompleteInput" onkeyup="autoComplete('category', this.value)" />
+                        <input id="categoryAutoCompleteInput" type="text" onkeyup="autoComplete('category', this.value)">
                     </div>
                     <div id="categoryAutoCompleteContainer"></div>
                 </div>
@@ -77,12 +74,12 @@
                     <label for="tags">Tags:</label>
                     <div class="input-wrapper">
                         <div id="tagBadgeContainer" class="badge-container"></div>
-                        <input type="text" id="tagAutoCompleteInput" onkeyup="autoComplete('tag', this.value)" />
+                        <input id="tagAutoCompleteInput" type="text" onkeyup="autoComplete('tag', this.value)">
                     </div>
                     <div id="tagAutoCompleteContainer"></div>
                 </div>
 
-                <input type="submit" value="Add" class="add-button" />
+                <input class="add-button" type="submit" value="Add">
             </fieldset>
         </form>
     </dialog>
