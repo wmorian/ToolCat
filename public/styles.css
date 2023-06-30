@@ -68,12 +68,6 @@ body {
     margin-bottom: 1rem;
 }
 
-@media (prefers-color-scheme: light) {
-	:root {
-        color-scheme: light;
-	}
-}
-
 @media (prefers-color-scheme: dark) {
 	.toolbar {
         background-color: hsl(0, 0%, 24%);
@@ -431,11 +425,26 @@ legend {
     margin-left: auto;
 }
 
+@media (prefers-color-scheme: dark) {
+	.close {
+        background-color: hsl(0, 0%, 24%);
+        color: hsl(0, 0%, 87%) !important;
+	}
+}
+
 .close:hover,
 .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+	.close:hover,
+    .close:focus {
+        background-color: hsl(0, 0%, 87%);
+        color: hsl(0, 0%, 24%) !important;
+	}
 }
 
 form {
