@@ -237,6 +237,11 @@ dialog .add-button {
     margin: 0 !important;
 }
 
+.gg-trash {
+    margin: 0.25rem !important;
+    transform: scale(var(--ggs,2)) !important;
+}
+
 .filter-container {
     display: flex;
     justify-content: space-evenly;
@@ -641,13 +646,14 @@ form {
     background-color: #f44336; /* Red */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 27px 30px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    aspect-ratio: 1/1;
 }
 
 .row:hover .delete-button {

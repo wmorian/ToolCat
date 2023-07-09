@@ -170,7 +170,7 @@ function renderTools(tools) {
                         </td>
                         <td>
                             <button class="delete-button" onclick="deleteTool(${tool.id})">
-                                X
+                                <i class="gg-trash"></i>
                             </button>
                         </td>
                     </tr>
