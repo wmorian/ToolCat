@@ -135,10 +135,17 @@ fieldset div:last-of-type:has(.hideInput) {
     padding: .5rem;
     bottom: 5vh;
     right: 0;
-    background-color: rgba(0, 100, 20, 0.2);
+    background-color: hsla(132, 100%, 40%, 0.4);
     border-radius: 100vmax 0 0 100vmax;
     backdrop-filter: blur(2px);
 }
+
+@media (prefers-color-scheme: light) {
+    .add-container {
+        background-color: rgba(0, 100, 20, 0.2);
+    }
+}
+
 
 button,
 input[type="submit"] {
