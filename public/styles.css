@@ -130,6 +130,16 @@ fieldset div:last-of-type:has(.hideInput) {
     padding-top: .5rem;
 }
 
+.add-container {
+    position: absolute;
+    padding: .5rem;
+    bottom: 5vh;
+    right: 0;
+    background-color: rgba(0, 100, 20, 0.2);
+    border-radius: 100vmax 0 0 100vmax;
+    backdrop-filter: blur(2px);
+}
+
 button,
 input[type="submit"] {
     display: flex;
@@ -154,9 +164,7 @@ button>i {
 }
 
 .add-button {
-    position: fixed;
-    right: 2rem;
-    bottom: 5vh;
+    position: sticky;
     z-index: 999;
     transition: all 0.3s;
     box-shadow: 0 0 15px 2.5px #00f99d;
