@@ -255,15 +255,6 @@ table * {
     border-collapse: collapse;
 }
 
-tr {
-    border: 2px solid;
-    border-bottom: none;
-}
-
-tr:last-of-type {
-    border-bottom: 2px solid;
-}
-
 thead {
 /*     position: sticky;
     top: 0;
@@ -279,6 +270,8 @@ thead th {
 }
 
 tr {
+    border: 2px solid;
+    border-bottom: none;
     display: grid;
     grid-auto-flow: dense;
 }
@@ -288,6 +281,24 @@ tr {
         grid-template-columns: 1fr 1fr;
         grid-auto-flow: column;
     }
+}
+
+tr:last-of-type {
+    border-bottom: 2px solid;
+}
+
+.container {
+    container-type: inline-size;
+}
+
+.card {
+    background: lightblue;
+}
+
+@container (min-inline-size: 500px) {
+  .card {
+    background: lightgreen;
+  }
 }
 
 .row {
@@ -327,7 +338,7 @@ tr {
     background-position: 100% 100%, 0 100%;
     background-size: 100% 3px, 0 3px;
     background-repeat: no-repeat;
-    max-width: 20ch;
+    /* max-width: 20ch; */
     overflow: hidden;
     color: inherit;
     font-weight: 700;
@@ -355,7 +366,6 @@ tr {
 .img-container img {
     display: inline-block;
     position: relative;
-    border: 1px solid #000;
     border-radius: 50%;
     width: auto;
     height: 300px;
@@ -490,6 +500,8 @@ form {
 .filter {
     display: flex;
     align-items: flex-start;
+    flex-flow: wrap;
+    margin: auto 0;
 }
 
 .badge-container {
