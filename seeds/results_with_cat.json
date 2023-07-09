@@ -1,0 +1,2133 @@
+[
+    {
+        "URL": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+        "Title": "ChatGPT Prompt Engineering for Developers - DeepLearning.AI",
+        "Description": "",
+        "Image": "https://wordpress.deeplearning.ai/wp-content/uploads/2023/04/DLAI-OAI-Image-Preview.png",
+        "Categories": [
+            "Development",
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.aitoolkit.org/",
+        "Title": "Aitoolkit: All the best AI Tools in 2023. Updated daily.",
+        "Description": "A curated directory of the top AI tools in 2023. 1400+ AI tools for business, AI education tools, AI development tools, AI research tools.. in 29 categories!",
+        "Image": "https://uploads-ssl.webflow.com/644b8b17ae0a1a99ae4a1f35/646d81dda70a1bf8dc6eac76_Screenshot%202023-05-23%20at%2005.41.11.png",
+        "Categories": [
+            "Development",
+            "Utilities",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.rokoko.com/",
+        "Title": "Intuitive and affordable motion capture tools for character animation",
+        "Description": "Empowering 3D digital creators with high quality sensor based motion capture systems for body, finger and face animations",
+        "Image": "https://assets-global.website-files.com/5e6b63ac3b6e253f11889f39/63931d110aa6200b7694a3ec_rokoko.com%20homepage.jpg",
+        "Categories": [
+            "Design",
+            "Graphics",
+            "Utilities",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/eugeneyan/open-llms",
+        "Title": "GitHub - eugeneyan/open-llms: 📋 A list of open LLMs available for commercial use.",
+        "Description": "📋 A list of open LLMs available for commercial use. - GitHub - eugeneyan/open-llms: 📋 A list of open LLMs available for commercial use.",
+        "Image": "https://repository-images.githubusercontent.com/636787031/3caccfb7-4e6f-4807-98c4-aceb23ddc806",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://martinheinz.dev/blog/96",
+        "Title": "Python's Missing Batteries: Essential Libraries You're Missing Out On | Martin Heinz | Personal Website & Blog",
+        "Description": "<p>\nPython is known to come with <i>\"batteries included\"</i>, thanks to its very extensive standard library, which includes many modules and functions that...",
+        "Image": "",
+        "Categories": [
+            "Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/r2d4/openlm",
+        "Title": "GitHub - r2d4/openlm: OpenAI-compatible Python client that can call any LLM",
+        "Description": "OpenAI-compatible Python client that can call any LLM - GitHub - r2d4/openlm: OpenAI-compatible Python client that can call any LLM",
+        "Image": "https://opengraph.githubassets.com/81922befaa2ad3306d89c346e83c632750e6e44f2aef388a43941a4ccddf6530/r2d4/openlm",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://go.swimm.io/ide-plugin",
+        "Title": "Code documentation tool built for devs",
+        "Description": "",
+        "Image": "https://go.swimm.io/hubfs/faviconx64.ico",
+        "Categories": [
+            "Development",
+            "Design",
+            "Utilities",
+            "Collaboration",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://bard.google.com/",
+        "Title": "Try Bard, an AI experiment by Google",
+        "Description": "Bard is your creative and helpful collaborator to supercharge your imagination, boost productivity, and bring ideas to life.",
+        "Image": "https://www.gstatic.com/lamda/images/bard_thumbnail.png",
+        "Categories": [
+            "Productivity",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.bluewillow.ai/",
+        "Title": "BlueWillow | Free AI Art Generator",
+        "Description": "BlueWillow is a free AI artwork generator that creates stunning AI-generated images. Beautiful, unique and inspiring AI pics, photos and art are at your fingertips.  Free AI paint alternative to Midjourney.",
+        "Image": "https://uploads-ssl.webflow.com/63b84d768804709af30fbb6b/641a20b55407ab9ac45fdf29_blue%20willow%20logo%20dark%2032.png",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.gptea.io/",
+        "Title": "GpTea - The Best ChatGPT Prompts Station and AI Community",
+        "Description": "Discover tons of ChatGPT prompts and join a thriving AI community at GpTea - the ultimate prompt station. Get started now! ",
+        "Image": "",
+        "Categories": [
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://promptchainer.io/",
+        "Title": "PromptChainer",
+        "Description": "Powerful AI flow generation made easy",
+        "Image": "https://promptchainer.io/favicon.ico",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://github.com/csunny/DB-GPT",
+        "Title": "GitHub - csunny/DB-GPT: Revolutionizing Database Interactions with Private LLM Technology",
+        "Description": "Revolutionizing Database Interactions with Private LLM Technology - GitHub - csunny/DB-GPT: Revolutionizing Database Interactions with Private LLM Technology",
+        "Image": "https://opengraph.githubassets.com/611dc4b30ae2a551316a92df086ac5755cafe1c9ea74ebf9b5aa4b3c4fb44f64/csunny/DB-GPT",
+        "Categories": [
+            "Data Analysis",
+            "Cloud",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://superpowered.ai/",
+        "Title": "Superpowered AI",
+        "Description": "Knowledge Base as a Service",
+        "Image": "https://superpowered.ai/favicon.ico",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://staticbackend.com/",
+        "Title": "No vendor-lock-in backend as a service | StaticBackend",
+        "Description": "",
+        "Image": "https://staticbackend.com/img/preview.jpg",
+        "Categories": [
+            "Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://dify.ai/",
+        "Title": "Dify - LLMOps platform, Define your AI-native apps",
+        "Description": "Dify is an easy-to-use LLMOps platform designed to empower more people to create sustainable, AI-native applications.",
+        "Image": "https://framerusercontent.com/modules/k9kHwjYUZbHPcAbnYb78/AgPa6w8pdpIdkw79M2kC/assets/Q1HAXXSOTyRjcfhkHClAfvDVGI.png",
+        "Categories": [
+            "Design",
+            "Graphics",
+            "Utilities",
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://openbb.co/",
+        "Title": "Investment research for everyone",
+        "Description": "OpenBB is a leading open source investment analysis company. Our mission is to make investment research effective, powerful and accessible to everyone.",
+        "Image": "https://openbb.co/assets/images/ogimages/Homepage.png",
+        "Categories": [
+            "Data Analysis"
+        ]
+    },
+    {
+        "URL": "https://www.rewind.ai/",
+        "Title": "Rewind",
+        "Description": "What if you had perfect memory? Search or ask Rewind about anything you've seen, said, or heard.",
+        "Image": "https://storage.googleapis.com/rewind-assets/og-thumb-optimized.jpg",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://github.com/yxuansu/PandaGPT",
+        "Title": "GitHub - yxuansu/PandaGPT: PandaGPT: One Model To Instruction-Follow Them All",
+        "Description": "PandaGPT: One Model To Instruction-Follow Them All - GitHub - yxuansu/PandaGPT: PandaGPT: One Model To Instruction-Follow Them All",
+        "Image": "https://opengraph.githubassets.com/ea6c7ecf00bc5541fa2080c1c2364258cba0dd7327800de6e16c6eda7a4f6ca1/yxuansu/PandaGPT",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.ilib.com/ai-websites",
+        "Title": "Most Popular AI Websites (Sorted by Monthly Traffic from High to Low)",
+        "Description": "3000+ Most popular AI websites. The rapid pace of innovation in the AI field can be exhausting, and that's we created a list of the most popular AI websites.",
+        "Image": "https://www.ilib.com/favicons/android-icon-36x36.png",
+        "Categories": [
+            "Development",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://capeprivacy.com/",
+        "Title": "Cape Privacy | Keep sensitive data private while still using ChatGPT",
+        "Description": "CapeChat automatically encrypts your documents and redacts any sensitive data. It’s powered by the ChatGPT API, so you get the best language model while preserving your privacy.",
+        "Image": "https://capeprivacy.com/images/share-image.jpg",
+        "Categories": [
+            "Development",
+            "Security",
+            "Communication",
+            "Collaboration",
+            "Data Analysis",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://elest.io/",
+        "Title": "Elestio: Fully Managed Open source",
+        "Description": "The easiest way to run Open-source software. Deploy any one of over 200+ supported software on a dedicated instance in less than 3 minutes. You can relax knowing that we are taking care of installation, configuration, encryption, backups, software & OS updates, live monitoring…and more!",
+        "Image": "https://elest.io/images/og_main.png",
+        "Categories": [
+            "Development",
+            "Organization",
+            "Utilities",
+            "Security"
+        ]
+    },
+    {
+        "URL": "https://www.modularmind.app/",
+        "Title": "ModularMind",
+        "Description": "Drag & Drop ChatGPT Prompts",
+        "Image": "https://static.wixstatic.com/media/6e1ef0_9bec040d531047e3a33218c28395f470~mv2.jpg",
+        "Categories": [
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://heptabase.com/",
+        "Title": "Heptabase",
+        "Description": "A note-taking tool for visual learning.",
+        "Image": "assets/images/hero.webp",
+        "Categories": [
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://www.photoroom.com/",
+        "Title": "Remove Background and Create Product Pictures | PhotoRoom",
+        "Description": "Create product and portrait pictures using only your phone. Remove background, change background and showcase products.",
+        "Image": "https://www.photoroom.com/og/home/photoroom-en.png",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://github.com/Chainlit/chainlit",
+        "Title": "GitHub - Chainlit/chainlit: Build Python LLM apps in minutes ⚡️",
+        "Description": "Build Python LLM apps in minutes ⚡️. Contribute to Chainlit/chainlit development by creating an account on GitHub.",
+        "Image": "https://opengraph.githubassets.com/00350fbda24de6c3d339e633f5c99eabe55f8634db202ae4a242b90be2576d39/Chainlit/chainlit",
+        "Categories": [
+            "Development",
+            "Design",
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://starlight.astro.build/",
+        "Title": "Starlight 🌟 Build documentation sites with Astro",
+        "Description": "Starlight helps you build beautiful, high-performance documentation websites with Astro.",
+        "Image": "https://starlight.astro.build/og.jpg?v=1",
+        "Categories": [
+            "Design",
+            "Collaboration",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/reactive-python/reactpy",
+        "Title": "GitHub - reactive-python/reactpy: It's React, but in Python",
+        "Description": "It's React, but in Python. Contribute to reactive-python/reactpy development by creating an account on GitHub.",
+        "Image": "https://repository-images.githubusercontent.com/171410703/bd661e6f-9bd3-43b8-8d6c-45a316c4bc11",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/algolia/autocomplete",
+        "Title": "GitHub - algolia/autocomplete: 🔮 Fast and full-featured autocomplete library",
+        "Description": "🔮 Fast and full-featured autocomplete library. Contribute to algolia/autocomplete development by creating an account on GitHub.",
+        "Image": "https://repository-images.githubusercontent.com/38976571/6aaa2100-abef-11eb-93c3-9e2977fc734c",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://openobserve.ai/",
+        "Title": "OpenObserve | Open Source Observability Platform for Logs, Metrics, Traces, and More â Your Ultimate Dashboard for Alerts and Insights",
+        "Description": "Logs, Metrics, Traces and more in one platform.Streamline your operations with worry-free observability and simplify your observability setup in just 2 minutes. 140x lower storage cost than your existing observability tools",
+        "Image": "https://openobserve.ai/__og_image__/og.png",
+        "Categories": [
+            "Utilities",
+            "Cloud"
+        ]
+    },
+    {
+        "URL": "https://www.create-next-stack.com/",
+        "Title": "Create your Next.js project today! | Create Next Stack",
+        "Description": "Create your Next.js project today! Create Next Stack is a website and CLI tool used to easily set up the boilerplate of new Next.js apps.",
+        "Image": "https://www.create-next-stack.com/thumbnail.png",
+        "Categories": [
+            "Organization",
+            "Utilities",
+            "Collaboration",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://webstudio.is/",
+        "Title": "Open visual  development for the open web",
+        "Description": "Similar to Webflow, Webstudio visually translates CSS without obscuring it, giving designers superpowers that were exclusive to developers in the past.",
+        "Image": "https://webstudio.is/favicon.ico",
+        "Categories": [
+            "Development",
+            "Design",
+            "Graphics",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://trigger.dev/",
+        "Title": "Trigger.dev - The Background Jobs framework for Next.js",
+        "Description": "Create long-running Jobs directly in your codebase with features like API integrations, webhooks, scheduling and delays.",
+        "Image": "https://www.trigger.dev/build/_assets/og-image-EYH4PIUB.jpg",
+        "Categories": [
+            "Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://apitable.com/",
+        "Title": "APITable | Incredibly Simple and Powerful Work Management OS",
+        "Description": "APITable is an Incredibly Simple and Powerful Work Management Software, enabling everyone to effortlessly organizing everything.",
+        "Image": "https://apitable.com/wp-content/uploads/2023/04/featured-image-OS.png",
+        "Categories": [
+            "Development",
+            "Productivity",
+            "Organization",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://github.com/stonith404/pingvin-share/",
+        "Title": "GitHub - stonith404/pingvin-share: A self-hosted file sharing platform that combines lightness and beauty, perfect for seamless and efficient file sharing.",
+        "Description": "A self-hosted file sharing platform that combines lightness and beauty, perfect for seamless and efficient file sharing. - GitHub - stonith404/pingvin-share: A self-hosted file sharing platform that combines lightness and beauty, perfect for seamless and efficient file sharing.",
+        "Image": "https://opengraph.githubassets.com/2923ee679f64d851508c2fc50660c4d5b78f4bff3ea715a060e31f33f1143694/stonith404/pingvin-share",
+        "Categories": [
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://simplepdf.eu/",
+        "Title": "SimplePDF - A free PDF editor to easily edit documents and fill in forms",
+        "Description": "The online PDF editor that respects your privacy: add text, checkboxes, add and remove pages, sign your PDFs in a few seconds",
+        "Image": "https://cdn.simplepdf.eu/simple-pdf/assets/simple-pdf-editor",
+        "Categories": [
+            "Security",
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://research.runwayml.com/gen1",
+        "Title": "Gen-1 by Runway",
+        "Description": "The Next Step Forward for Generative AI",
+        "Image": "https://research.runwayml.com/icons/favicon-32x32.png",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.aicyclopedia.com/",
+        "Title": "AIcyclopedia | The largest directory for AI tools and prompts",
+        "Description": "Discover the most comprehensive AI directory website, featuring a vast array of artificial intelligence resources, tools, and services Explore our AI directory today and take your knowledge and skills in artificial intelligence to the next level",
+        "Image": "https://global-uploads.webflow.com/63ecbe630341115202f41c9c/64309fca9d91c616c3ac5ad2_logo.png",
+        "Categories": [
+            "Utilities",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://aitestkitchen.withgoogle.com/",
+        "Title": "AI Test Kitchen",
+        "Description": "",
+        "Image": "https://aitestkitchen.withgoogle.com/icons/favicon-light/favicon-32x32.png",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.keephq.dev/",
+        "Title": "Keep",
+        "Description": "Open-source alert management for software developers",
+        "Image": "https://api.typedream.com/v0/document/public/99cea23d-fa83-4376-badb-64ecd2475537/2QkGESpLfrTtNhkF8flqr5TDlD9_Keep.jpg",
+        "Categories": [
+            "Development",
+            "Productivity",
+            "Organization",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://unovis.dev/",
+        "Title": "Unovis",
+        "Description": "A framework-independent data vis library for the web",
+        "Image": "https://unovis.dev/img/unovis-social.png",
+        "Categories": [
+            "Development",
+            "Data Analysis",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://zerotomastery.io/cheatsheets/",
+        "Title": "Free Cheat Sheets (Python, JavaScript, Big O, Node, + many more) | Zero To Mastery",
+        "Description": "Enjoy these free cheat sheets on some of the most in-demand tech skills and topics. Created by our world-class instructors.",
+        "Image": "//images.ctfassets.net/aq13lwl6616q/2yoR1zSaJ5IkLSzqqoWG1t/1e0dc0288e7200a34f3bca4413a50a45/4._Cheat_sheets_-_GIF.gif",
+        "Categories": [
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://localfirstweb.dev/",
+        "Title": "Local-First Web Development",
+        "Description": "A fresh way to think about building web applications.",
+        "Image": "https://localfirstweb.dev/assets/images/logo.png",
+        "Categories": [
+            "Development",
+            "Design",
+            "Utilities",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://grep.app/",
+        "Title": "grep.app | code search",
+        "Description": "Search across a half million git repos. Search by regular expression.",
+        "Image": "https://grep.app/favicon-32x32.png",
+        "Categories": [
+            "Development",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://www.chatbase.co/",
+        "Title": "Chatbase | ChatGPT for your website",
+        "Description": "Build an AI chatbot from your knowledge base and add it to your website.",
+        "Image": "https://www.chatbase.co/og.png",
+        "Categories": [
+            "Design",
+            "Communication",
+            "Mobile Development",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://huggingface.co/",
+        "Title": "Hugging Face – The AI community building the future.",
+        "Description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+        "Image": "https://huggingface.co/front/thumbnails/v2-2.png",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.eesel.app/",
+        "Title": "eesel - The new tab for work",
+        "Description": "eesel filters your browser history to show the documents you need for work right in your new tab. See recent docs, filter by app or search by title or content. All in one place.",
+        "Image": "https://framerusercontent.com/modules/sVoSE8HgKEGZkGgdDfZw/bK6nyQLexxzJWHX2LY0R/assets/eMyhiNTdQvov1IYveqxD3cps5q8.png",
+        "Categories": [
+            "Collaboration",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://pynecone.io/",
+        "Title": "Pynecone: The easiest way to build web apps.",
+        "Description": "Write web apps in pure Python. Deploy in minutes.",
+        "Image": "preview.png",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/",
+        "Title": "Prompt Engineering | Lil'Log",
+        "Description": "Prompt Engineering, also known as In-Context Prompting, refers to methods for how to communicate with LLM to steer its behavior for desired outcomes without updating the model weights. It is an empirical science and the effect of prompt engineering methods can vary a lot among models, thus requiring heavy experimentation and heuristics.\nThis post only focuses on prompt engineering for autoregressive language models, so nothing with Cloze tests, image generation or multimodality models.",
+        "Image": "https://lilianweng.github.io/favicon_peach.ico",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.commandlinefu.com/commands/browse",
+        "Title": "All commands",
+        "Description": "A repository for the most elegant and useful UNIX commands.  Great commands can be shared, discussed and voted on to provide a comprehensive resource for working from the command-line",
+        "Image": "https://www.commandlinefu.com/images/favicon.ico",
+        "Categories": [
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://github.com/nomic-ai/gpt4all",
+        "Title": "GitHub - nomic-ai/gpt4all: gpt4all: an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue",
+        "Description": "gpt4all: an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue - GitHub - nomic-ai/gpt4all: gpt4all: an ecosystem of open-source chatbots trained on a massive collections of clean assistant data including code, stories and dialogue",
+        "Image": "https://opengraph.githubassets.com/2a41628b70ddc91e27708d240e893fbd8311ec476b4e6cec535782f78b190af6/nomic-ai/gpt4all",
+        "Categories": [
+            "Development",
+            "Utilities",
+            "Communication",
+            "Data Analysis",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.looria.com/bot/BuyItForLife",
+        "Title": "ChatGPT for BuyItForLife | Looria",
+        "Description": "This bot is trained on over 200k comments and posts from BuyItForLife subreddits to embody the collective knowledge of the Reddit BuyItForLife community.",
+        "Image": "https://www.looria.com/bot_og_BuyItForLife.png",
+        "Categories": [
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://jamesturk.github.io/scrapeghost/",
+        "Title": "scrapeghost",
+        "Description": "An experimental library for automated web scraping with GPT.",
+        "Image": "https://jamesturk.github.io/scrapeghost/assets/scrapeghost.png",
+        "Categories": [
+            "Development",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://pdfgpt.io/",
+        "Title": "",
+        "Description": "Chat With PDF",
+        "Image": "https://pdfgpt.io/favicon.ico",
+        "Categories": [
+            "Communication"
+        ]
+    },
+    {
+        "URL": "https://github.com/ggerganov/kbd-audio",
+        "Title": "GitHub - ggerganov/kbd-audio: 🎤⌨️ Acoustic keyboard eavesdropping",
+        "Description": "🎤⌨️ Acoustic keyboard eavesdropping. Contribute to ggerganov/kbd-audio development by creating an account on GitHub.",
+        "Image": "https://repository-images.githubusercontent.com/146330145/9c73bd00-7405-11e9-8648-24d2efc7d67d",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/mindsdb/mindsdb",
+        "Title": "GitHub - mindsdb/mindsdb: MindsDB is a Server for Artificial Intelligence Logic. Enabling developers to ship to production AI powered projects (from the latest LLMs, vector operations, state of the art time-series forecasting to Machine Learning) in a fast and scalable way.",
+        "Description": "MindsDB is a Server for Artificial Intelligence Logic. Enabling developers to ship to production AI powered projects (from the latest LLMs, vector operations, state of the art time-series forecasting to Machine Learning) in a fast and scalable way.  - GitHub - mindsdb/mindsdb: MindsDB is a Server for Artificial Intelligence Logic. Enabling developers to ship to production AI powered projects (from the latest LLMs, vector operations, state of the art time-series forecasting to Machine Learning) in a fast and scalable way.",
+        "Image": "https://opengraph.githubassets.com/64dc4cdc10b0bfcda012981545907d28412f6ced72c6d7522cde4cb2b3faa4f9/mindsdb/mindsdb",
+        "Categories": [
+            "Development",
+            "Organization",
+            "Collaboration",
+            "Data Analysis",
+            "Infrastructure",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://send.transferchain.io/",
+        "Title": "TransferChain Send | Secure and private file sharing",
+        "Description": "TransferChain ensures true privacy and security when sending files easily around the world.",
+        "Image": "https://send.transferchain.io/img/transferchain-send-cover.jpg",
+        "Categories": [
+            "Security",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://okama.io/",
+        "Title": "Dash",
+        "Description": "Efficient Frontier for the investment portfolios",
+        "Image": "None",
+        "Categories": [
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://chat.colossalai.org/",
+        "Title": "ColossalChat",
+        "Description": "Chatbot powered by Colossal-AI",
+        "Image": "https://chat.colossalai.org/favicon.ico",
+        "Categories": [
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://mullvad.net/en/browser",
+        "Title": "Free the internet from mass surveillance. With the Mullvad Browser.",
+        "Description": "The Mullvad Browser is a privacy-focused web browser developed in collaboration between Mullvad VPN and the Tor Project. Itâs produced to minimize tracking and fingerprinting. You could say itâs a Tor Browser to use without the Tor Network.",
+        "Image": "https://mullvad.net/images/browser-og.jpg",
+        "Categories": [
+            "Organization",
+            "Security",
+            "Collaboration",
+            "Infrastructure",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://aitoptools.com/",
+        "Title": "AI Tool Directory | AiTopTools.com | The Largest AI Tool Directory",
+        "Description": "Discover the largest AI tool directory, featuring 10,000+ AI tools, AI news & more. Stay current on AI trends with ease.",
+        "Image": "https://aitoptools.com/wp-content/uploads/2023/06/new_homepage.png",
+        "Categories": [
+            "Utilities",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://github.com/Torantulino/Auto-GPT",
+        "Title": "GitHub - Significant-Gravitas/Auto-GPT: An experimental open-source attempt to make GPT-4 fully autonomous.",
+        "Description": "An experimental open-source attempt to make GPT-4 fully autonomous. - GitHub - Significant-Gravitas/Auto-GPT: An experimental open-source attempt to make GPT-4 fully autonomous.",
+        "Image": "https://opengraph.githubassets.com/d56e6e935cb78826066e99b30ee62175337d560ad140bfbf7d2918ad0f8115c8/Significant-Gravitas/Auto-GPT",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://github.com/reworkd/AgentGPT",
+        "Title": "GitHub - reworkd/AgentGPT: 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+        "Description": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser. - GitHub - reworkd/AgentGPT: 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+        "Image": "https://repository-images.githubusercontent.com/624681066/ae26ac54-4a51-4a61-b966-64eacaa07107",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://rize.io/",
+        "Title": "Rize Â· Maximize Your Productivity",
+        "Description": "Rize is a smart time tracker that improves your focus and helps you build better work habits.",
+        "Image": "https://rize-io.s3-us-west-1.amazonaws.com/assets/vanity/v3/og.png",
+        "Categories": [
+            "Design",
+            "Productivity",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://feedbackbyai.com/en/rewrite",
+        "Title": "Multi-Mode Rewriting by AI",
+        "Description": "Transform your written content with ease using our AI-powered multi-mode rewriting service. Our tool offers a variety of tones&styles to choose from, ensuring that your text resonates with your intended audience.",
+        "Image": "https://feedbackbyai.com/image.png",
+        "Categories": [
+            "Utilities",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://slidar.ai/prompts",
+        "Title": "Sign Up - Slidar",
+        "Description": "Maximize your productivity with Slidar's free premium prompts for ChatGPT. Sign Up now and access a database of curated prompts.",
+        "Image": "http://slidar.ai/sign-up/__og_image__/og.png",
+        "Categories": [
+            "Productivity",
+            "Communication",
+            "Data Analysis",
+            "Cloud",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://zed.dev/",
+        "Title": "Zed - Code at the speed of thought",
+        "Description": "",
+        "Image": "https://zed.dev/seo/og.png",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://godmode.space/",
+        "Title": "Godmode.space",
+        "Description": "Explore the Power of Generative Agents on Godmode.space. Inspired by Auto-GPT and BabyAGI. Supports GPT-3.5 & GPT-4.",
+        "Image": "https://godmode.space/favicon.png",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://29a.ch/photo-forensics/",
+        "Title": "Forensically, free online photo forensics tools - 29a.ch",
+        "Description": "Forensically is a set of free tools for digital image forensics. It includes clone detection, error level analysis, meta data extraction and more.",
+        "Image": "https://29a.ch/photo-forensics//image.jpg",
+        "Categories": [
+            "Utilities",
+            "Data Analysis"
+        ]
+    },
+    {
+        "URL": "https://gpthero.net/",
+        "Title": "GPTHero | Easily Bypass AI Detectors and ChatGPT Detectors.",
+        "Description": " GPTHero is a free online tool that allows you to easily modify text to bypass AI Detectors and ChatGPT Detectors. The text can bypass GPTZero and OpenAI’s AI classifier.",
+        "Image": "https://gpthero.net/favicon-32x32.png",
+        "Categories": [
+            "Utilities",
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://skiff.com/",
+        "Title": "Skiff - Private, encrypted, secure email - 10 GB free",
+        "Description": null,
+        "Image": "https://cdn.sanity.io/images/sdd9dua4/production/5fc84cb5a766ab08e71358ddfaf315c1558e520a-1200x628.png",
+        "Categories": [
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://audiopen.ai/",
+        "Title": "AudioPen",
+        "Description": "AudioPen transcribes and summarizes unstructured voice notes into text thatâs easy to read and ready to share.\n\nIf you like thinking out loud, you'll love Audio Pen. It's like having a personal assistant who records and summarizes your thoughts.",
+        "Image": "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fa7b19d7a245c07286533d7a21bca9acc.cdn.bubble.io%2Ff1683175506399x642153344571672700%2FThumbnail%2520New%2520May%25204.1.png?w=&h=&auto=compress&dpr=1&fit=max",
+        "Categories": [
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://www.documatic.com/",
+        "Title": "Documatic - Understand Your Code",
+        "Description": "A search engine for your codebase; Ask Documatic a question and find relevant code and insights in seconds",
+        "Image": "https://www.datocms-assets.com/66360/1652271385-favicon.svg?auto=format&h=16&w=16",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://rome.tools/",
+        "Title": "Rome — Unified developer tools for JavaScript, TypeScript, and the web",
+        "Description": "Unified developer tools for JavaScript, TypeScript, and the web",
+        "Image": "https://rome.toolsimg/social-logo.png",
+        "Categories": [
+            "Development",
+            "Utilities",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://rome.tools/blog/2022/11/08/rome-10.html",
+        "Title": "Announcing Rome v10",
+        "Description": "The first stable release of Rome, a fast linter and formatter for JavaScript and TypeScript.",
+        "Image": "https://rome.toolsimg/blog/social-logo-v10.png",
+        "Categories": [
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/projectdiscovery/katana",
+        "Title": "GitHub - projectdiscovery/katana: A next-generation crawling and spidering framework.",
+        "Description": "A next-generation crawling and spidering framework. - GitHub - projectdiscovery/katana: A next-generation crawling and spidering framework.",
+        "Image": "https://opengraph.githubassets.com/cb42cd5f679b998c7c5bf86e634ba6faa2548cec224785f08c2ac42e9ba068b9/projectdiscovery/katana",
+        "Categories": [
+            "Organization",
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://podman-desktop.io/",
+        "Title": "Podman Desktop - Containers and Kubernetes | Podman Desktop",
+        "Description": "Podman Desktop - An open source graphical tool for developing on containers and Kubernetes",
+        "Image": "https://podman-desktop.io/img/favicon.ico",
+        "Categories": [
+            "Graphics",
+            "Utilities",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://dynaboard.com/",
+        "Title": "Dynaboard – Collaborative low-code IDE for developers",
+        "Description": "The fast development platform for full-stack web apps.",
+        "Image": "https://images.ctfassets.net/b0wn34vnc1k8/4K7tTsAvGzsyNq5hjc4hIF/8d876b43e864c5bbe0c408edd8690ac0/OG.jpg",
+        "Categories": [
+            "Development",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://safing.io/blog/2022/10/27/portmaster-reaches-1.0/",
+        "Title": "Portmaster 1.0, A New Era for Privacy",
+        "Description": "Portmaster is a free and open-source application that puts you back in charge over all your computer's network connections. Increase your privacy and security. Get peace of mind.\n",
+        "Image": "https://safing.io/assets/img/thumbnails/blog/portmaster-1.0.png",
+        "Categories": [
+            "Utilities",
+            "Security",
+            "Mobile Development",
+            "Infrastructure"
+        ]
+    },
+    {
+        "URL": "https://github.com/openblocks-dev/openblocks",
+        "Title": "GitHub - openblocks-dev/openblocks: 🔥 🔥 🔥 The Open Source Retool Alternative",
+        "Description": "🔥 🔥 🔥 The Open Source Retool Alternative. Contribute to openblocks-dev/openblocks development by creating an account on GitHub.",
+        "Image": "https://opengraph.githubassets.com/51e41a87fe1579b576252a9aed1679a9a091af90aa14a2e0cdb12fba6df6625f/openblocks-dev/openblocks",
+        "Categories": [
+            "Development",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://open-props.style/",
+        "Title": "Open Props: sub-atomic styles",
+        "Description": "Open source CSS custom properties to help accelerate adaptive and consistent design. Available from a CDN or NPM, as CSS or Javascript.",
+        "Image": "https://open-props.style/open-props-social.jpg",
+        "Categories": [
+            "Design",
+            "Graphics",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://palette.fm/",
+        "Title": "Colorize Photos - Try Free without Sign-up - Palette.fm",
+        "Description": "Colorize your black and white images within seconds. Try our online AI colorize tool for free, no sign-up needed.",
+        "Image": "https://palette.fm/preview.png",
+        "Categories": [
+            "Utilities",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.warp.dev/",
+        "Title": "Warp: The terminal for the 21st century",
+        "Description": "Warp is a Rust-based terminal built for speed. With Warp, you can type in a terminal like an IDE, navigate your output command by command, and ask AI for help. It is now available on MacOS.",
+        "Image": "https://storage.googleapis.com/website-image-preview/www_warp_dev.png",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.futurepedia.io/",
+        "Title": "Futurepedia - The Largest AI Tools Directory | Home",
+        "Description": "Futurepedia is the largest AI tools directory. Browse 1500+ AI tools in 50+ categories like copywriting, image generation and video editing. Search and filter the tools by categories, pricing and features.",
+        "Image": "https://res.cloudinary.com/duc6iaub7/image/upload/futurepedia/home.webp",
+        "Categories": [
+            "Utilities",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://d2lang.com/tour/intro/",
+        "Title": "D2 Tour | D2 Documentation",
+        "Description": "D2 is a diagram scripting language that turns text to diagrams. It stands for",
+        "Image": "https://d2lang.com/img/opengraph.png",
+        "Categories": [
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://github.com/Tanmoy741127/lumi",
+        "Title": "GitHub - Lumi-Official/lumi: Lumi is an nano framework to convert your python functions into a REST API without any extra headache.",
+        "Description": "Lumi is an nano framework to convert your python functions into a REST API without any extra headache. - GitHub - Lumi-Official/lumi: Lumi is an nano framework to convert your python functions into a REST API without any extra headache.",
+        "Image": "https://opengraph.githubassets.com/f77e1b8460ed24db9817424c2a619d482ed10e59aa15b85a22b35c97af034230/Lumi-Official/lumi",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://more.graphics/",
+        "Title": "more.graphics - Your Unique and Free Generator Tools in One Place",
+        "Description": "Using our generators, you can create design from scratch, visually observing your creation, and the generator will give you the best on completion of the work.",
+        "Image": "https://more.graphics/image.png",
+        "Categories": [
+            "Design",
+            "Graphics",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://nextra.site/",
+        "Title": "Nextra – Next.js Static Site Generator – Nextra",
+        "Description": "Make beautiful websites with Next.js & MDX.",
+        "Image": "https://nextra.site/favicon.svg",
+        "Categories": [
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://learnprompting.org/docs/intro",
+        "Title": "Welcome | Learn Prompting: Your Guide to Communicating with AI",
+        "Description": "Welcome to our introductory course on prompt engineering!",
+        "Image": "https://learnprompting.org/img/favicon.ico",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://sideproject.guide/en",
+        "Title": "Side Project Guide",
+        "Description": "Side Project 指南",
+        "Image": "https://sideproject.guide/favicon.ico",
+        "Categories": [
+            "Design",
+            "Organization",
+            "Collaboration",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://theresanaiforthat.com/",
+        "Title": "Attention Required! | Cloudflare",
+        "Description": "",
+        "Image": "",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Cloud",
+            "Infrastructure"
+        ]
+    },
+    {
+        "URL": "https://oneusefulthing.substack.com/p/how-to-use-chatgpt-to-boost-your",
+        "Title": "How to... use ChatGPT to boost your writing",
+        "Description": "The key to using generative AI successfully is prompt-crafting",
+        "Image": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05b5c97d-922b-4b3b-aafa-0862785a5bed_1024x1024.png",
+        "Categories": [
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://paste.systemli.org/",
+        "Title": "Systemli Paste",
+        "Description": "",
+        "Image": "img/apple-touch-icon.png",
+        "Categories": [
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://github.com/f/awesome-chatgpt-prompts",
+        "Title": "GitHub - f/awesome-chatgpt-prompts: This repo includes ChatGPT prompt curation to use ChatGPT better.",
+        "Description": "This repo includes ChatGPT prompt curation to use ChatGPT better. - GitHub - f/awesome-chatgpt-prompts: This repo includes ChatGPT prompt curation to use ChatGPT better.",
+        "Image": "https://opengraph.githubassets.com/2b270d07ed0ea78bcaa9f631d663b2c20c44e400932d59b711bfa1a900e03f4a/f/awesome-chatgpt-prompts",
+        "Categories": [
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.scriptkit.com/",
+        "Title": "Script Kit: Shortcut to Everything",
+        "Description": "An open-source kit to optimize your developer workflow.",
+        "Image": "https://scriptkit.com/card@2x.png",
+        "Categories": [
+            "Development",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://sli.dev/",
+        "Title": "Slidev",
+        "Description": "Presentation slides for developers",
+        "Image": "https://sli.dev/og-image.png",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://drive.google.com/file/d/1UOfN0iB_A0rEGYc2CbYnpIF44FupQn2I/view",
+        "Title": "ChatGPT Cheat Sheet.pdf - Google Drive",
+        "Description": "",
+        "Image": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png",
+        "Categories": [
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.thomas.io/detect-gpt",
+        "Title": "Detect GPT",
+        "Description": "A Chrome extension that spots AI-generated content.",
+        "Image": "https://www.thomas.io/img/share.png",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.karlsutt.com/articles/communicating-effectively-as-a-developer/",
+        "Title": "How to communicate effectively as a developer",
+        "Description": "Some tactical and strategic tips for writing effectively as a software developer.",
+        "Image": "https://www.karlsutt.com/content/images/2023/05/empathic.webp",
+        "Categories": [
+            "Development",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://github.com/yjs/yjs",
+        "Title": "GitHub - yjs/yjs: Shared data types for building collaborative software",
+        "Description": "Shared data types for building collaborative software - GitHub - yjs/yjs: Shared data types for building collaborative software",
+        "Image": "https://repository-images.githubusercontent.com/22392639/419c6c00-995d-11ea-87c6-dc7e997553d4",
+        "Categories": [
+            "Development",
+            "Design",
+            "Utilities",
+            "Collaboration",
+            "Data Analysis",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide",
+        "Title": "GitHub - ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide: Detailed and tailored guide for undergraduate students or anybody want to dig deep into the field of AI with solid foundation.",
+        "Description": "Detailed and tailored guide for undergraduate students or anybody want to dig deep into the field of AI with solid foundation. - GitHub - ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide: Detailed and tailored guide for undergraduate students or anybody want to dig deep into the field of AI with solid foundation.",
+        "Image": "https://opengraph.githubassets.com/1ba2a569b144a5dcf4adff26f85e909130939b199b1c7b9343c1e0e130357122/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://anvil.works/",
+        "Title": "\n      Anvil | Build Web Apps with Nothing but Python\n    ",
+        "Description": "Anvil is a free Python-based drag-and-drop web app builder",
+        "Image": "https://anvil.works/img/homepage-thumbnail.png",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://vscodecandothat.com/",
+        "Title": "VS Code Can Do That?",
+        "Description": "All the best things about VS Code that nobody ever bothered to tell you",
+        "Image": "https://vscodecandothat.com/static/favicon.ico",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/varunshenoy/GraphGPT",
+        "Title": "GitHub - varunshenoy/GraphGPT: Extrapolating knowledge graphs from unstructured text using GPT-3 🕵️‍♂️",
+        "Description": "Extrapolating knowledge graphs from unstructured text using GPT-3 🕵️‍♂️ - GitHub - varunshenoy/GraphGPT: Extrapolating knowledge graphs from unstructured text using GPT-3 🕵️‍♂️",
+        "Image": "https://opengraph.githubassets.com/9a6bf41de61744b8e61948d47f36761c9562a92f2754c9c0473067e011827d27/varunshenoy/GraphGPT",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://masscode.io/",
+        "Title": "massCode | A free and open source code snippets manager for developers",
+        "Description": "Code snippets manager for developers, developed using web technologies.",
+        "Image": "https://masscode.io/og-image.png",
+        "Categories": [
+            "Development",
+            "Organization",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/runsidekick/sidekick",
+        "Title": "GitHub - runsidekick/sidekick: Free and open-source live application debugger. Like chrome dev tools but for your backend",
+        "Description": "Free and open-source live application debugger. Like chrome dev tools but for your backend - GitHub - runsidekick/sidekick: Free and open-source live application debugger. Like chrome dev tools but for your backend",
+        "Image": "https://repository-images.githubusercontent.com/527583905/d370c5d7-da5f-4869-a4e3-21a2de58546e",
+        "Categories": [
+            "Development",
+            "Utilities",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://languageplease.org/style-guide/",
+        "Title": "Digital Journalism Style Guide of Inclusive Language | Language Please",
+        "Description": "Our digital journalism style guide of inclusive language is populated with more than 1,000 terms spanning containing descriptions, usage examples, related terms, and additional resources.",
+        "Image": "https://i0.wp.com/languageplease.org/wp-content/uploads/2022/02/Favicon-180.png?fit=32%2C32&ssl=1",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://jsonhero.io/",
+        "Title": "JSON Viewer - JSON Hero",
+        "Description": "JSON Hero makes reading and understand JSON files easy by giving you a clean and beautiful UI packed with extra features.",
+        "Image": "https://jsonhero.io/build/_assets/opengraph-3NKD6TYA.png",
+        "Categories": [
+            "Design",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://jsoncrack.com/",
+        "Title": "",
+        "Description": "Simple visualization tool for your JSON data. No forced structure, paste your JSON and view it instantly.",
+        "Image": "https://jsoncrack.com/assets/jsoncrack.png",
+        "Categories": [
+            "Utilities",
+            "Data Analysis"
+        ]
+    },
+    {
+        "URL": "https://github.com/wilfred/difftastic",
+        "Title": "GitHub - Wilfred/difftastic: a structural diff that understands syntax 🟥🟩",
+        "Description": "a structural diff that understands syntax 🟥🟩. Contribute to Wilfred/difftastic development by creating an account on GitHub.",
+        "Image": "https://repository-images.githubusercontent.com/162276894/9016c405-27b8-487f-ba20-f20dc0ee806c",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/drpancake/chard",
+        "Title": "GitHub - drpancake/chard: A simple async/await task queue for Django. One process, no threads, no other dependencies.",
+        "Description": "A simple async/await task queue for Django. One process, no threads, no other dependencies. - GitHub - drpancake/chard: A simple async/await task queue for Django. One process, no threads, no other dependencies.",
+        "Image": "https://opengraph.githubassets.com/cc15b6f6d2c2d3b4878a2cefbb3cd01cf27a8ed9eb640299c70c31bc0a16057c/drpancake/chard",
+        "Categories": [
+            "Productivity",
+            "Organization",
+            "Collaboration",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://terrastruct.com/",
+        "Title": "Terrastruct | Diagramming tools crafted to visualize software architecture",
+        "Description": "D2 Studio is a diagramming tool uniquely crafted for software architecture",
+        "Image": "https://www.terrastruct.com/images/site_preview.png",
+        "Categories": [
+            "Development",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://pocketbase.io/",
+        "Title": "PocketBase - Open Source backend in 1 file",
+        "Description": "Open Source backend in 1 file with realtime database, authentication, file storage and admin dashboard",
+        "Image": "/images/og.png",
+        "Categories": [
+            "Development",
+            "Data Analysis",
+            "Cloud",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://gra.dient.art/editor",
+        "Title": "GradientArt | Advanced CSS Gradient Editor",
+        "Description": "Advanced CSS Gradient Editor with layers, editing tools and free cloud storage",
+        "Image": "https://gra.dient.art/favicon.png",
+        "Categories": [
+            "Utilities",
+            "Cloud",
+            "Infrastructure",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://liner.ai/",
+        "Title": "Liner.ai - Machine Learning without Code",
+        "Description": "Liner is a free tool which lets you build and deploy machine learning applications within minutes. No coding or expertise in machine learning required.",
+        "Image": "https://liner.ai/image/banner.jpg",
+        "Categories": [
+            "Development",
+            "Design",
+            "Utilities",
+            "Data Analysis",
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://lightningcss.dev/",
+        "Title": "Lightning CSS",
+        "Description": "An extremely fast CSS parser, transformer, bundler, and minifier.",
+        "Image": "/og.jpeg",
+        "Categories": [
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://height.app/code-to-task",
+        "Title": "Code to Task: Turn // todo into tasks - Height",
+        "Description": "Automatically create tasks right from code comments.",
+        "Image": "https://height.app/a/statics/assets/og-image-VEKBGXO3.png",
+        "Categories": [
+            "Development",
+            "Productivity",
+            "Organization",
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://storybook.js.org/",
+        "Title": "Storybook: Frontend workshop for UI development",
+        "Description": "Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation. It’s open source and free.",
+        "Image": "https://storybook.js.org/images/social/og-home.jpg",
+        "Categories": [
+            "Development",
+            "Design",
+            "Organization",
+            "Collaboration",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://playwright.dev/",
+        "Title": "Fast and reliable end-to-end testing for modern web apps | Playwright",
+        "Description": "Cross-browser end-to-end testing for modern web apps",
+        "Image": "https://repository-images.githubusercontent.com/221981891/8c5c6942-c91f-4df1-825f-4cf474056bd7",
+        "Categories": [
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://clientdb.dev/",
+        "Title": "clientdb - OS in-memory database for real-time web apps",
+        "Description": "ClientDB is an open source in-memory database for enabling real-time web apps. Write fast, scalable code that feels silky smooth for users.",
+        "Image": "https://framerusercontent.com/modules/FtZqJC0KdIlDbaCtqiSM/xJiBmZhffKWdF28yweU9/assets/D50Q80hQFyeAX9VaFfir0HSxarY.jpg",
+        "Categories": [
+            "Development",
+            "Data Analysis",
+            "Mobile Development",
+            "Cloud",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://surrealdb.com/",
+        "Title": "SurrealDB | The ultimate database for tomorrow's applications",
+        "Description": "SurrealDB is the ultimate database for tomorrow's serverless, jamstack, single-page, and traditional applications.",
+        "Image": "https://surrealdb.com/static/img/preview/main-f9d159594e8e86b1aef89c2aff73e5d4.jpg",
+        "Categories": [
+            "Utilities",
+            "Data Analysis",
+            "Mobile Development",
+            "Cloud",
+            "Infrastructure"
+        ]
+    },
+    {
+        "URL": "https://www.vscheatsheet.com/",
+        "Title": "VSCheatsheet | Shortcuts in the shortest time possible | Shortcut Illustrations",
+        "Description": "VSCheatsheet provides a list of instructive illustrations with the most frequently used. Find your favorite shortcut and increase your profanity.",
+        "Image": "https://www.vscheatsheet.com/static-images/cover.png",
+        "Categories": [
+            "Design",
+            "Graphics"
+        ]
+    },
+    {
+        "URL": "https://usethekeyboard.com/",
+        "Title": "A collection of keyboard shortcuts for Mac apps, Windows programs, and websites → UseTheKeyboard",
+        "Description": "A collection of keyboard shortcuts for Mac apps, Windows programs, and a variety of websites.",
+        "Image": "https://usethekeyboard.com/assets/img/undraw-taking-notes-square.png",
+        "Categories": [
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/dosisod/refurb",
+        "Title": "GitHub - dosisod/refurb: A tool for refurbishing and modernizing Python codebases",
+        "Description": "A tool for refurbishing and modernizing Python codebases - GitHub - dosisod/refurb: A tool for refurbishing and modernizing Python codebases",
+        "Image": "https://opengraph.githubassets.com/0df0395fa15bc115333820fc32133bc7f11b2c959e3d64e92195da7aa5504fc1/dosisod/refurb",
+        "Categories": [
+            "Development",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://consensus.app/search/",
+        "Title": "Search - Consensus - Evidence-Based Answers, Faster",
+        "Description": "Consensus is a search engine that uses AI to find answers in scientific research.",
+        "Image": "https://consensus.app/images/og-search.png",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.locatorjs.com/",
+        "Title": "LocatorJS - click on any component to go to code.",
+        "Description": "Click on any component and go from your app to component's code.",
+        "Image": "/preview.png",
+        "Categories": [
+            "Development",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://scrapy.org/",
+        "Title": "Scrapy | A Fast and Powerful Scraping and Web Crawling Framework",
+        "Description": "",
+        "Image": "https://scrapy.org/favicons/favicon-192x192.png",
+        "Categories": [
+            "Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/openreplay/openreplay",
+        "Title": "GitHub - openreplay/openreplay: :tv: OpenReplay is developer-friendly, self-hosted session replay.",
+        "Description": ":tv: OpenReplay is developer-friendly, self-hosted session replay. - GitHub - openreplay/openreplay: :tv: OpenReplay is developer-friendly, self-hosted session replay.",
+        "Image": "https://opengraph.githubassets.com/8248cd589d71d1dde72e19405d9df6542a67fcc9af7d9afd212ed261c9c83dcf/openreplay/openreplay",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://crawlee.dev/",
+        "Title": "Crawlee · Build reliable crawlers. Fast. | Crawlee",
+        "Description": "",
+        "Image": "https://crawlee.dev/img/crawlee-og.png",
+        "Categories": [
+            "Design",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://www.stockai.com/tools/article-to-featured-image",
+        "Title": "Stock AI",
+        "Description": "Web site created using create-react-app",
+        "Image": "https://www.stockai.com/favicon.ico",
+        "Categories": [
+            "Mobile Development",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://shoelace.style/",
+        "Title": "Shoelace: A forward-thinking library of web components.",
+        "Description": "Shoelace provides a collection of professionally designed, every day UI components built on a framework-agnostic technology.",
+        "Image": "https://shoelace.style/assets/images/og-image.png",
+        "Categories": [
+            "Development",
+            "Design",
+            "Graphics",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://kellanem.com/notes/how-to-plan",
+        "Title": "How to plan? | Kellan Elliott-McCrea",
+        "Description": "How to plan? How hard could it be? 4k words scribbled down on a sunny October afternoon for people in tech observing the Season’s Traditional Annual Planning Process, inspired by a recent interview question (and 25 years of variously painful planning processes).",
+        "Image": "",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://getsurge.io/",
+        "Title": "Surge - The worlds first anonymous P2P client",
+        "Description": "Surge is a p2p filesharing app designed to utilize blockchain technologies to enable 100% anonymous file transfers. Surge is end-to-end encrypted, decentralized and open source.",
+        "Image": "https://getsurge.io/images/graph_surge.png",
+        "Categories": [
+            "Design",
+            "Graphics",
+            "Mobile Development",
+            "Artificial Intelligence",
+            "Blockchain"
+        ]
+    },
+    {
+        "URL": "https://erpnext.com/",
+        "Title": "ERPNext: Free and Open Source Cloud ERP Software",
+        "Description": "ERPNext is the world's top 100% open source ERP which supports manufacturing, distribution, retail, trading, services, education, non profits and healthcare",
+        "Image": "https://erpnext.com/files/Screenshot 2021-01-18 at 7.45.52 PM.png",
+        "Categories": [
+            "Development",
+            "Utilities",
+            "Cloud",
+            "Infrastructure",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.mida.org/",
+        "Title": "Mida",
+        "Description": "Mida is a full-featured ecosystem for algotrading in global financial markets.",
+        "Image": "https://www.mida.org/mida-background.png",
+        "Categories": [
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://github.com/firefly-iii/firefly-iii/",
+        "Title": "GitHub - firefly-iii/firefly-iii: Firefly III: a personal finances manager",
+        "Description": "Firefly III: a personal finances manager. Contribute to firefly-iii/firefly-iii development by creating an account on GitHub.",
+        "Image": "https://repository-images.githubusercontent.com/21298446/df3f3500-938f-11eb-9ced-1fc42aec4e90",
+        "Categories": [
+            "Development",
+            "Organization"
+        ]
+    },
+    {
+        "URL": "https://github.com/Fizzadar/pyinfra",
+        "Title": "GitHub - Fizzadar/pyinfra: pyinfra automates infrastructure super fast at massive scale. It can be used for ad-hoc command execution, service deployment, configuration management and more.",
+        "Description": "pyinfra automates infrastructure super fast at massive scale. It can be used for ad-hoc command execution, service deployment, configuration management and more. - GitHub - Fizzadar/pyinfra: pyinfra automates infrastructure super fast at massive scale. It can be used for ad-hoc command execution, service deployment, configuration management and more.",
+        "Image": "https://opengraph.githubassets.com/32f69cdc2822d2c322e607cb7c05d2b3382ed04944490f214a7575aebee0749b/Fizzadar/pyinfra",
+        "Categories": [
+            "Productivity",
+            "Organization",
+            "Infrastructure"
+        ]
+    },
+    {
+        "URL": "https://github.com/mikeroyal/Self-Hosting-Guide",
+        "Title": "GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, WireGuard, Automation, Home Assistant, and Networking.",
+        "Description": "Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, WireGuard, Automation, Home Assistant, and Networking. - GitHub - mikeroyal/Self-Hosting-Guide: Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, WireGuard, Automation, Home Assistant, and Networking.",
+        "Image": "https://repository-images.githubusercontent.com/456258633/d8124bc5-9c7a-4ea8-a718-a954c5a56298",
+        "Categories": [
+            "Development",
+            "Design",
+            "Utilities",
+            "Mobile Development",
+            "Cloud",
+            "Infrastructure",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.explainpaper.com/",
+        "Title": "Explainpaper",
+        "Description": "The best way to read research papers.",
+        "Image": "/static/favicons/favicon-32x32.png",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://github.com/justin-carver/Squrl",
+        "Title": "GitHub - justin-carver/Squrl: Squrl, Secure Quick URL, is a URL shortening service that offers secure end-to-end encryption.",
+        "Description": "Squrl, Secure Quick URL, is a URL shortening service that offers secure end-to-end encryption. - GitHub - justin-carver/Squrl: Squrl, Secure Quick URL, is a URL shortening service that offers secure end-to-end encryption.",
+        "Image": "https://opengraph.githubassets.com/1c8d77d579a98ebdc818b668726f3d8337ab16469316156f534ada073504e521/justin-carver/Squrl",
+        "Categories": [
+            "Design",
+            "Security",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://component.gallery/",
+        "Title": "Home | The Component Gallery",
+        "Description": "The Component Gallery is a collection of components from the best Design Systems.",
+        "Image": "https://component.gallery/icons/icon-48x48.png",
+        "Categories": [
+            "Design",
+            "Graphics",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://direkt.bahn.guru/",
+        "Title": "🇪🇺 Direct train connections",
+        "Description": "direkt.bahn.guru - Find all direct train connections from your city 🚅",
+        "Image": "https://direkt.bahn.guru/assets/screenshot.png",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.bardeen.ai/posts/how-to-bypass-a-paywall",
+        "Title": "How to bypass a paywall (easy guide)",
+        "Description": "A step-by-step guide for those who are getting locked out of an article because it's behind a paywall.",
+        "Image": "https://assets-global.website-files.com/61f1e6228476c537d6c91ab3/640f2486b7538f519d12465f_webflow-a7686efa3cf91bce2232d16f2081664f-peihlqui.jpeg",
+        "Categories": [
+            "Design",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://www.foreignaffairs.com/articles/russian-federation/2022-03-05/russias-menacing-mix-religion-and-nuclear-weapons",
+        "Title": "Russia’s Menacing Mix of Religion and Nuclear Weapons | Foreign Affairs",
+        "Description": "In the Kremlin, faith and force go hand in hand.",
+        "Image": "https://cdn-live.foreignaffairs.com/sites/default/files/styles/social_share/public/images/2022/03/05/RTS24GDJ.JPG?itok=9uYdRQPg",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.system.com/graph",
+        "Title": "System is a free, open, and living public resource that aims to explain how anything in the world is related to everything else.",
+        "Description": "",
+        "Image": "/share-prod.png",
+        "Categories": [
+            "Utilities",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.opensourcealternative.to/",
+        "Title": "Open Source Alternatives to Proprietary Software",
+        "Description": "Discover 400+ popular open source alternatives to proprietary SaaS.",
+        "Image": "https://uploads-ssl.webflow.com/6220c55c697338c9388a4715/622cb3010148d041f5b294a3_OPENSOURCE%20ALTERNATIVE.TO%20(2).png",
+        "Categories": [
+            "Development",
+            "Utilities",
+            "Cloud"
+        ]
+    },
+    {
+        "URL": "https://www.staticstarter.com/",
+        "Title": "A Better Developer Workflow With All The Best Practices. For Free. - Static Starter Boilerplate",
+        "Description": "This project template will boost your productivity and make you write better and cleaner code. It's the simplestway to get started and crush projects in no time.",
+        "Image": "https://www.staticstarter.com/ogimage.jpg",
+        "Categories": [
+            "Development",
+            "Productivity",
+            "Organization",
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://fakerjs.dev/",
+        "Title": "Faker | Faker",
+        "Description": "Generate massive amounts of fake (but reasonable) data for testing and development.",
+        "Image": "https://fakerjs.dev/logo.svg",
+        "Categories": [
+            "Development",
+            "Data Analysis"
+        ]
+    },
+    {
+        "URL": "https://pyscript.net/",
+        "Title": "PyScript | Run Python in your HTML",
+        "Description": "PyScript",
+        "Image": "assets/images/pyscript-preview.png",
+        "Categories": [
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/alufers/mitmproxy2swagger",
+        "Title": "GitHub - alufers/mitmproxy2swagger: Automagically reverse-engineer REST APIs via capturing traffic",
+        "Description": "Automagically reverse-engineer REST APIs via capturing traffic - GitHub - alufers/mitmproxy2swagger: Automagically reverse-engineer REST APIs via capturing traffic",
+        "Image": "https://opengraph.githubassets.com/f7746834ef8c4a546e68545000305ce3ba3b6c9e28009cb511752d62be64bbea/alufers/mitmproxy2swagger",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://0xax.gitbooks.io/linux-insides/content/",
+        "Title": "Introduction · Linux Inside",
+        "Description": "",
+        "Image": "https://gstatic.gitbook.com/images/b1c4c86ca817a71628d2debe73be9a64.ico",
+        "Categories": [
+            "Design"
+        ]
+    },
+    {
+        "URL": "https://www.nosignup.tools/",
+        "Title": "No-Signup Tools",
+        "Description": "Free web apps that don't require registration or login",
+        "Image": "https://nosignup.tools/images/nosignup_tools.jpeg",
+        "Categories": [
+            "Design",
+            "Utilities",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://10minutemail.net/",
+        "Title": "10 Minute Mail",
+        "Description": "Temporary disposable email service to beat spam. Avoid spam with a free, secure 10 minutes email address. Use our service as often as you like.",
+        "Image": "/cdn/images/Icon-72@2x.png",
+        "Categories": [
+            "Communication",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://katex.org/",
+        "Title": "KaTeX – The fastest math typesetting library for the web",
+        "Description": "",
+        "Image": "https://katex.org/img/og_logo.png",
+        "Categories": [
+            "Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://fresh.deno.dev/",
+        "Title": "Fresh App",
+        "Description": "",
+        "Image": "",
+        "Categories": [
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/public-apis/public-apis",
+        "Title": "GitHub - public-apis/public-apis: A collective list of free APIs",
+        "Description": "A collective list of free APIs. Contribute to public-apis/public-apis development by creating an account on GitHub.",
+        "Image": "https://repository-images.githubusercontent.com/54346799/e5ee272c-dfe1-40e5-b66b-b0a36e815254",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://tailwind-elements.com/",
+        "Title": "Tailwind Elements - 500+ free Tailwind CSS components",
+        "Description": "A free collection of open source UI components, templates, sections & plugins for Tailwind CSS. Features dark mode and theming customization options.",
+        "Image": "https://tecdn.b-cdn.net/img/components-big.jpg",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://daisyui.com/",
+        "Title": "daisyUI — Tailwind CSS Components",
+        "Description": "Tailwind Components Library - Free components for Tailwind CSS",
+        "Image": "https://daisyui.com/images/default.jpg",
+        "Categories": [
+            "Development",
+            "Design",
+            "Mobile Development",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.hyperui.dev/",
+        "Title": "Free Open Source Tailwind CSS Components | HyperUI",
+        "Description": "Free Tailwind CSS components that can be used in your next project.",
+        "Image": "https://www.hyperui.dev/favicon.ico",
+        "Categories": [
+            "Design",
+            "Organization",
+            "Collaboration",
+            "Mobile Development",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://modules.nuxtjs.org/",
+        "Title": "Modules · Nuxt",
+        "Description": "Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.",
+        "Image": "https://nuxt.com/socials/modules.jpg",
+        "Categories": [
+            "Design",
+            "Organization",
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://you.com/",
+        "Title": "Attention Required! | Cloudflare",
+        "Description": "",
+        "Image": "",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Cloud",
+            "Infrastructure"
+        ]
+    },
+    {
+        "URL": "https://github.com/basetenlabs/truss",
+        "Title": "GitHub - basetenlabs/truss: Serve any model without boilerplate code",
+        "Description": "Serve any model without boilerplate code. Contribute to basetenlabs/truss development by creating an account on GitHub.",
+        "Image": "https://repository-images.githubusercontent.com/511003180/a5f8b237-2bbc-4fa0-b677-e90c3ddea059",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://marketplace.visualstudio.com/items?itemName=mutable-ai.mutable-ai",
+        "Title": "\r\n        Mutable AI, Copilot alternative (autocomplete and more): Python, Go, Javascript, Typescript, Rust, Solidity & more - Visual Studio Marketplace\r\n    ",
+        "Description": "Extension for Visual Studio Code - AI Accelerated Programming",
+        "Image": "https://mutable-ai.gallerycdn.vsassets.io/extensions/mutable-ai/mutable-ai/2.2.1/1682471424602/Microsoft.VisualStudio.Services.Icons.Default",
+        "Categories": [
+            "Development",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://thestocks.im/",
+        "Title": "The Stocks 3 | Best royalty free stock photos, videos, mockups, icons and fonts! ",
+        "Description": "2100+ tools for Designers ð Discover the best royalty-free stock photos, icons, videos, mockups, and tools! Updates daily.",
+        "Image": "https://v3.thestocks.im/img/og-facebook.png",
+        "Categories": [
+            "Design",
+            "Graphics",
+            "Utilities",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.tailwindhelper.com/",
+        "Title": "Tailwindhelper",
+        "Description": "A tailwind multi-tool to convert and visualize your classes properties.",
+        "Image": "/og-image.png",
+        "Categories": [
+            "Utilities",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://github.com/karanpratapsingh/system-design",
+        "Title": "GitHub - karanpratapsingh/system-design: Learn how to design systems at scale and prepare for system design interviews",
+        "Description": "Learn how to design systems at scale and prepare for system design interviews - GitHub - karanpratapsingh/system-design: Learn how to design systems at scale and prepare for system design interviews",
+        "Image": "https://repository-images.githubusercontent.com/525105056/34c53632-b4fd-44ed-b719-959269a32565",
+        "Categories": [
+            "Design",
+            "Graphics",
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://webhooks.fyi/",
+        "Title": "Webhooks.fyi",
+        "Description": "Learn the most popular approaches for building, securing, and operating webhooks, with recommendations for webhook providers and consumers",
+        "Image": "/banner.png",
+        "Categories": [
+            "Design",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/apify/crawlee",
+        "Title": "GitHub - apify/crawlee: Crawlee—A web scraping and browser automation library for Node.js that helps you build reliable crawlers. Fast.",
+        "Description": "Crawlee—A web scraping and browser automation library for Node.js that helps you build reliable crawlers. Fast. - GitHub - apify/crawlee: Crawlee—A web scraping and browser automation library for Node.js that helps you build reliable crawlers. Fast.",
+        "Image": "https://repository-images.githubusercontent.com/66670819/8242c30a-d9dc-4580-ae44-f7ea1bfd9b41",
+        "Categories": [
+            "Development",
+            "Design",
+            "Mobile Development",
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://www.paraphraser.io/",
+        "Title": "Paraphrasing Tool - Paraphraser (Rephrase 5,000 Words)",
+        "Description": "Paraphraser.io is a best paraphrasing tool for sentence rephrasing and essay rewriting. Our rewording tool changes structure of sentences and replace synonyms",
+        "Image": "https://www.paraphraser.io/assets/frontend/images/favicon.ico",
+        "Categories": [
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://github.com/jetpack-io/devbox",
+        "Title": "GitHub - jetpack-io/devbox: Instant, easy, and predictable development environments",
+        "Description": "Instant, easy, and predictable development environments - GitHub - jetpack-io/devbox: Instant, easy, and predictable development environments",
+        "Image": "https://opengraph.githubassets.com/3190cb2e611b5e5db91420c0bfc3b9c2b59ecc4d0295124ec2d73cd8d60139c7/jetpack-io/devbox",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/bradtraversy/design-resources-for-developers",
+        "Title": "GitHub - bradtraversy/design-resources-for-developers: Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more",
+        "Description": "Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more - GitHub - bradtraversy/design-resources-for-developers: Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more",
+        "Image": "https://opengraph.githubassets.com/d281fe047840627588c7eddd7f6210cd265126a47efc029cbdfba55518ec0ffc/bradtraversy/design-resources-for-developers",
+        "Categories": [
+            "Development",
+            "Design",
+            "Graphics",
+            "Utilities",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://tenor.com/view/magic-dust-salt-bae-meme-sprinkle-gif-16676000",
+        "Title": "Magic Dust Salt Bae GIF - Magic Dust Salt Bae Meme - Discover & Share GIFs",
+        "Description": "The perfect Magic Dust Salt Bae Meme Animated GIF for your conversation. Discover and Share the best GIFs on Tenor.",
+        "Image": "https://media.tenor.com/Bzb_s8PGoeMAAAAC/magic-dust-salt-bae.gif",
+        "Categories": [
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://simple-kb.web.app/",
+        "Title": "SimpleKanban",
+        "Description": "SimpleKanban is a web-based task management app that helps you organize work and personal tasks",
+        "Image": "https://i.imgur.com/Ah30lCt.png",
+        "Categories": [
+            "Productivity",
+            "Organization",
+            "Collaboration",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/sniptt-official/ots",
+        "Title": "GitHub - sniptt-official/ots: 🔐 Share end-to-end encrypted secrets with others via a one-time URL",
+        "Description": "🔐 Share end-to-end encrypted secrets with others via a one-time URL - GitHub - sniptt-official/ots: 🔐 Share end-to-end encrypted secrets with others via a one-time URL",
+        "Image": "https://repository-images.githubusercontent.com/386384568/623951a8-4f8e-4cb5-bd04-ea3b1ec222c5",
+        "Categories": [
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://www.levelshealth.com/",
+        "Title": "Levels - Unlock Your Metabolic Health",
+        "Description": "Levels helps you see how food affects your health with personalized insights so you can optimize your nutrition and activity.",
+        "Image": "https://www.levelshealth.com/wp-content/uploads/2022/05/levels-social-share.jpg",
+        "Categories": [
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://github.com/allanrbo/filesremote",
+        "Title": "GitHub - allanrbo/filesremote: An SSH file manager that lets you edit files like they are local",
+        "Description": "An SSH file manager that lets you edit files like they are local - GitHub - allanrbo/filesremote: An SSH file manager that lets you edit files like they are local",
+        "Image": "https://opengraph.githubassets.com/b586eda18d2efe7f3372aefd8f090892a18faefbbe61fd258f8593a0c4053a4b/allanrbo/filesremote",
+        "Categories": [
+            "Organization"
+        ]
+    },
+    {
+        "URL": "https://obsidian.md/",
+        "Title": "Obsidian - Sharpen your thinking",
+        "Description": "Obsidian is the private and flexible note‑taking app that adapts to the way you think.",
+        "Image": "https://obsidian.md/images/banner.png",
+        "Categories": [
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://untools.co/",
+        "Title": "Tools for better thinking | Untools",
+        "Description": "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.",
+        "Image": "https://untools.co/favicon-32x32.png?v=48b6eb2cd872327651861e831bd90577",
+        "Categories": [
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://github.com/rammcodes/Dopefolio",
+        "Title": "GitHub - rammcodes/Dopefolio: Dopefolio 🔥 - Portfolio Template for Developers 🚀",
+        "Description": "Dopefolio 🔥 - Portfolio Template for Developers 🚀. Contribute to rammcodes/Dopefolio development by creating an account on GitHub.",
+        "Image": "https://opengraph.githubassets.com/996071391bb9a03b0660f8a7682900a66d6a853a099e00640398c641de2c2678/rammcodes/Dopefolio",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://bonsaibrowser.com/",
+        "Title": "Bonsai | Web Browser for Research",
+        "Description": "Web-browser for research that helps programmers think clearly.",
+        "Image": "https://cloudbrowser.io/ogimage.png",
+        "Categories": [
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://tiny-helpers.dev/",
+        "Title": "All – Tiny Helpers",
+        "Description": "A collection of free single-purpose online tools for web developers...",
+        "Image": "https://tiny-helpers.dev/large-media-image.jpg",
+        "Categories": [
+            "Development",
+            "Utilities",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://golden.com/explore",
+        "Title": "Explore and Contribute to Knowledge | Golden",
+        "Description": "Golden is mapping human knowledge by using machine intelligence to make the world’s first self-constructing encyclopedia. Golden contains millions of connected topics and allows users to create, contribute and compare knowledge within a powerful wiki.",
+        "Image": "//golden.com/static/images/38d57130206f78fb48c9.png",
+        "Categories": [
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://renzhezhilu.github.io/webp2jpg-online/",
+        "Title": "无需上传文件的多功能图片批量处理程序v3.0 (webp2jpg)-Multi-function picture batch processing v3.0 No need to upload files --Traitement par\n\t\tlots d'images multifonctions Pas besoin de télécharger des fichiers - Procesamiento por lotes de imágenes\n\t\tmultifunción No es necesario cargar archivos-多機能画像バッチ処理v3.0 ファイルをアップロードする必要はありません",
+        "Description": "在线多功能图片批量处理程序(webp2jpg),无需上传文件,可转换格式psd转jpg、webp转jpg、png无损压缩、svg压缩、heic转jpg、heif转jpg、tiff转jpg、hdr转jpg、png转jpg、psd转png、gif转webp，指出输入psd、psb、hdr、heic、heif、tiff、tif、bmp、tga、xcf、miff、dcm、xpm、pcx、fits、ppm、pgm、pfm、mng、dds、otb，可批量添加图片水印和文字水印、批量调整图片的宽度和高度、旋转图片、翻转图片、修剪图片、批量图片重命名",
+        "Image": "https://cdn.jsdelivr.net/gh/renzhezhilu/webp2jpg-online/cdn/webp2jpg_v3_ui.jpg",
+        "Categories": [
+            "Web Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://cleanup.pictures/",
+        "Title": "Cleanup.pictures - Remove objects, people, text and defects from any picture for free",
+        "Description": "Remove unwanted objects from photos, people, text, and defects from any picture for free. It's extremely easy in just a few clicks with our creative editing tool.",
+        "Image": "http://cleanup.pictures/preview.jpg",
+        "Categories": [
+            "Utilities"
+        ]
+    },
+    {
+        "URL": "https://regexlearn.com/",
+        "Title": "Regex Learn - Step by step, from zero to advanced.",
+        "Description": "Learn Regex interactively, practice at your level, test and share your own Regex.",
+        "Image": "https://regexlearn.com//images/og-regexlearn-image.jpg",
+        "Categories": [
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://workwithdata.com/",
+        "Title": "Work With Data",
+        "Description": "The interface to open data",
+        "Image": "https://www.workwithdata.com/static/icon_social.png",
+        "Categories": [
+            "Data Analysis"
+        ]
+    },
+    {
+        "URL": "https://www.creativebloq.com/buying-guides/best-free-video-editing-software",
+        "Title": "The best free video editing software in June 2023 | Creative Bloq",
+        "Description": "We take the best free video editing software to task.",
+        "Image": "https://cdn.mos.cms.futurecdn.net/NEACJhFuwYTzYCWkHGqq6Z-1200-80.jpg",
+        "Categories": [
+            "Development",
+            "Productivity",
+            "Organization",
+            "Utilities",
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://github.com/dbgate/dbgate",
+        "Title": "GitHub - dbgate/dbgate: Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application",
+        "Description": "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application - GitHub - dbgate/dbgate: Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application",
+        "Image": "https://repository-images.githubusercontent.com/229959677/b0114500-6399-11eb-8444-8df8237907d2",
+        "Categories": [
+            "Design",
+            "Organization",
+            "Utilities",
+            "Data Analysis",
+            "Mobile Development",
+            "Cloud",
+            "Infrastructure",
+            "Web Development"
+        ]
+    },
+    {
+        "URL": "https://readme.so/",
+        "Title": "readme.so",
+        "Description": "Use readme.so's markdown editor and templates to easily create a ReadMe for your projects",
+        "Image": "https://readme.so/readme.png",
+        "Categories": [
+            "Organization",
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://gather.town/",
+        "Title": "Gather | Building better teams, bit by bit",
+        "Description": "Work remotely side-by-side in digital Spaces that make virtual interactions more human.",
+        "Image": "https://assets-global.website-files.com/63c885e8fb810536398b658a/645bf5aa794137a3045dc2f3_Social-Share-2023.jpg",
+        "Categories": [
+            "Design",
+            "Organization",
+            "Collaboration",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://photokit.com/",
+        "Title": "Photo Editor | Free Image Editing Online - PhotoKit.com",
+        "Description": "PhotoKit is an AI-based online photo editor, convenient and easy to use. Crop, resize, rotate and apply basic edits with ease, start to edit your photos, pictures and images with a free online photo editor.",
+        "Image": "https://photokit.com/images/ogimage.min.png",
+        "Categories": [
+            "Mobile Development",
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://github.com/codenotary/immudb",
+        "Title": "GitHub - codenotary/immudb: immudb - immutable database based on zero trust, SQL/Key-Value/Document model, tamperproof, data change history",
+        "Description": "immudb - immutable database based on zero trust, SQL/Key-Value/Document model, tamperproof, data change history - GitHub - codenotary/immudb: immudb - immutable database based on zero trust, SQL/Key-Value/Document model, tamperproof, data change history",
+        "Image": "https://repository-images.githubusercontent.com/220186120/335f4180-6bb7-11eb-98c3-8ca7dca73490",
+        "Categories": [
+            "Development",
+            "Collaboration",
+            "Data Analysis",
+            "Cloud"
+        ]
+    },
+    {
+        "URL": "https://getradar.co/",
+        "Title": "Radar - Check important metrics from your Menubar",
+        "Description": "Radar is a menubar app that works on macOS, Windows & Linux. It lets you check the things that matter to you without leaving the app you are working on.",
+        "Image": "https://cdn.getradar.co/assets/images/card.png",
+        "Categories": [
+            "Design",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://wificard.io/",
+        "Title": "WiFi Card",
+        "Description": "Print a simple card with your WiFi login details. Tape it to the fridge, keep it in your wallet, etc.",
+        "Image": "https://wificard.io/images/wifi.ico",
+        "Categories": [
+            "Artificial Intelligence"
+        ]
+    },
+    {
+        "URL": "https://github.com/mvt-project/mvt",
+        "Title": "GitHub - mvt-project/mvt: MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+        "Description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise. - GitHub - mvt-project/mvt: MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+        "Image": "https://opengraph.githubassets.com/82cae5e68a4287c1bbe8d934bbe95b0d1562ea132a7a4628f92387e606b2ffa5/mvt-project/mvt",
+        "Categories": [
+            "Organization",
+            "Utilities",
+            "Collaboration",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://habitica.com/",
+        "Title": "Habitica - Gamify Your Life",
+        "Description": "Habitica is a free habit and productivity app that treats your real life like a game. Habitica can help you achieve your goals to become healthy and happy.",
+        "Image": "/static/emails/images/meta-image.png",
+        "Categories": [
+            "Productivity",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://ncase.me/trust/?mc_cid=0ded6ca697&mc_eid=6ec561da3b",
+        "Title": "The Evolution of Trust",
+        "Description": "an interactive guide to the game theory of why & how we trust each other",
+        "Image": "http://ncase.me/trust/social/thumbnail.png",
+        "Categories": [
+            "Design",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/conwnet/github1s",
+        "Title": "GitHub - conwnet/github1s: One second to read GitHub code with VS Code.",
+        "Description": "One second to read GitHub code with VS Code. Contribute to conwnet/github1s development by creating an account on GitHub.",
+        "Image": "https://opengraph.githubassets.com/d3a237b221dd7cf89f9808eff3c4b2bc6d5b1849079f10fbbdde1913d6014440/conwnet/github1s",
+        "Categories": [
+            "Development"
+        ]
+    },
+    {
+        "URL": "https://zenkit.com/",
+        "Title": "Productivity and Collaboration Software Suite | Zenkit",
+        "Description": "Zenkit is a productivity and collaboration Suite that supports your natural workflow. Find freedom and flexibility in the way you work.",
+        "Image": "https://zenkit.com/wp-content/uploads/2021/01/suite-social.jpg",
+        "Categories": [
+            "Development",
+            "Design",
+            "Productivity",
+            "Utilities",
+            "Collaboration",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://github.com/getzola/zola",
+        "Title": "GitHub - getzola/zola: A fast static site generator in a single binary with everything built-in. https://www.getzola.org",
+        "Description": "A fast static site generator in a single binary with everything built-in. https://www.getzola.org - GitHub - getzola/zola: A fast static site generator in a single binary with everything built-in. https://www.getzola.org",
+        "Image": "https://opengraph.githubassets.com/918603d57e640e7e106542eb2ad9b7dc87386c0c59e4864a77d32197cb5a47a6/getzola/zola",
+        "Categories": [
+            "Design",
+            "Mobile Development"
+        ]
+    },
+    {
+        "URL": "https://apps.musedlab.org/groovepizza/",
+        "Title": "Groove Pizza",
+        "Description": "Groove Pizza is a playful tool for creating grooves using math concepts like shapes, angles, and patterns. Start working with one of the special pizza presets and add/remove toppings to adjust the groove, or click on the Shape Pizza tab and drag various shapes onto the big circle to play and explore math-inspired grooves. Share your creation on social media, or continue your groove over at the online digital audio workstation at Soundtrap.com.",
+        "Image": "https://s3.amazonaws.com/musedlab-groovepizza/social/img/groovepizza_fb.png",
+        "Categories": [
+            "Utilities",
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://wormhole.app/",
+        "Title": "Wormhole - Simple, private file sharing",
+        "Description": "Wormhole lets you share files with end-to-end encryption and a link that automatically expires.",
+        "Image": "https://wormhole.app/images/social-share-home.jpg",
+        "Categories": [
+            "Security",
+            "Collaboration"
+        ]
+    },
+    {
+        "URL": "https://miro.com/",
+        "Title": "The Visual Collaboration Platform for Every Team | Miro",
+        "Description": "Scalable, secure, cross-device and enterprise-ready team collaboration whiteboard for distributed teams. Join 50M+ users from around the world.",
+        "Image": "https://images.ctfassets.net/w6r2i5d8q73s/OxZ08hm5k2id0kjQXmc0L/05bcc2743945b82009e59aa5d9c77c7d/miro.png",
+        "Categories": [
+            "Organization",
+            "Collaboration"
+        ]
+    }
+]

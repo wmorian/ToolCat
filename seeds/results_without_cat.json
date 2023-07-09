@@ -1,0 +1,380 @@
+[
+    {
+        "URL": "https://omnivore.app/",
+        "Title": "Omnivore",
+        "Description": "",
+        "Image": "/static/images/og-homepage-03.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://microsoft.github.io/devicescript/",
+        "Title": "DeviceScript | DeviceScript",
+        "Description": "TypeScript for Tiny IoT Devices",
+        "Image": "https://microsoft.github.io/devicescript/img/favicon.svg",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.profileme.dev/",
+        "Title": "ProfileMe.dev | Create an amazing GitHub profile in minutes",
+        "Description": "ProfileMe.dev | Create an amazing GitHub profile in minutes",
+        "Image": "https://raw.githubusercontent.com/danielcranney/repo-storage/main/profile-me-social-image.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://robko.ch/qr-designer/",
+        "Title": "Create a swink - swink",
+        "Description": "",
+        "Image": "undefined/v0/swink",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.breitbandmessung.de/",
+        "Title": "Breitbandmessung",
+        "Description": "",
+        "Image": "https://breitbandmessung.de/images/breitbandmessung-logo.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.wbs.legal/lp/deezer-datenleck/",
+        "Title": "Deezer Datenleck: Bis zu 1.000 â¬ Schadensersatz sichern",
+        "Description": "Jetzt Betroffenheit im â Gratis-Checker â Ã¼berprÃ¼fen & ggf. Schadensersatz erhalten â¦ Los gehts!",
+        "Image": "https://www.wbs.legal/wp-content/uploads/2023/01/deezer-datenleck.jpg",
+        "Categories": []
+    },
+    {
+        "URL": "https://someonewhocares.org/hosts/",
+        "Title": "Using a Hosts File To Make The Internet Not Suck (as much)",
+        "Description": "Instructions on how to use a hosts file to avoid viewing ads and to make your internet experience more pleasant.",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://twitter.com/hasantoxr/status/1643502284712624129?s=46&t=iobOKGAI22u3pYJzDqO2xg",
+        "Title": "",
+        "Description": "",
+        "Image": "https://abs.twimg.com/favicons/twitter.2.ico",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.pdfdrive.com/",
+        "Title": "PDF Drive - Search and download PDF files for free.",
+        "Description": "",
+        "Image": "https://www.pdfdrive.com/assets/img/logo-og-2-tn.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.phind.com/",
+        "Title": "Just a moment...",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents/",
+        "Title": "Access denied",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://github.com/1rgs/jsonformer",
+        "Title": "GitHub - 1rgs/jsonformer: A Bulletproof Way to Generate Structured JSON from Language Models",
+        "Description": "A Bulletproof Way to Generate Structured JSON from Language Models - GitHub - 1rgs/jsonformer: A Bulletproof Way to Generate Structured JSON from Language Models",
+        "Image": "https://opengraph.githubassets.com/870d75aa2c6db4a4c856ddb85fca703012ce8a8ce3c55b32848bf38735a287a5/1rgs/jsonformer",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.waldo.fyi/",
+        "Title": "Waldo / Become an expert in seconds.",
+        "Description": "",
+        "Image": "https://www.waldo.fyi/favicon.ico",
+        "Categories": []
+    },
+    {
+        "URL": "https://vectormaker.co/",
+        "Title": "vectormaker | Convert PNG-to-SVG Vectors",
+        "Description": "Convert images to SVG vectors, PNG-to-SVG Vectors. Vectormaker outlines your pixel based images and turns them into colored SVG vector files.",
+        "Image": "https://vectormaker.co/social_share.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://github.com/exaloop/codon",
+        "Title": "GitHub - exaloop/codon: A high-performance, zero-overhead, extensible Python compiler using LLVM",
+        "Description": "A high-performance, zero-overhead, extensible Python compiler using LLVM - GitHub - exaloop/codon: A high-performance, zero-overhead, extensible Python compiler using LLVM",
+        "Image": "https://opengraph.githubassets.com/6ac8514828f444e80f76f256f0b3099a11934ca835aa2e633c29927615b202fe/exaloop/codon",
+        "Categories": []
+    },
+    {
+        "URL": "https://jsonresume.org/",
+        "Title": " JSON Resume ",
+        "Description": "JSON Resume is a community driven open source initiative to create a JSON based standard for resumes.",
+        "Image": "https://jsonresume.org/favicon.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://cuelang.org/",
+        "Title": "CUE",
+        "Description": "",
+        "Image": "https://cuelang.org/favicons/favicon.ico",
+        "Categories": []
+    },
+    {
+        "URL": "https://swurl.com/",
+        "Title": "Swurl - Search everything",
+        "Description": "Search Google, YouTube, Instagram, TikTok, Twitter, Reddit, Amazon, Images, News, & more. See all results by swiping â no clicking.",
+        "Image": "https://swurl.com/img/swurl.com-screenshot.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://github.com/nostr-protocol/nostr",
+        "Title": "GitHub - nostr-protocol/nostr: a truly censorship-resistant alternative to Twitter that has a chance of working",
+        "Description": "a truly censorship-resistant alternative to Twitter that has a chance of working - GitHub - nostr-protocol/nostr: a truly censorship-resistant alternative to Twitter that has a chance of working",
+        "Image": "https://opengraph.githubassets.com/c7e12d8828ea9625cefb8ddde24825e28402053e455aeed13e5bdaf1fb9f8046/nostr-protocol/nostr",
+        "Categories": []
+    },
+    {
+        "URL": "https://assets-global.website-files.com/62d6de70dd9e54fe5d03255a/63a0dc1ff3d9833bcaba2920_The%20Generative%20AI%20Landscape.jpg",
+        "Title": "",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://github.com/bellingcat/auto-archiver",
+        "Title": "GitHub - bellingcat/auto-archiver: Automatically archive links to videos, images, and social media content in a Google Sheet.",
+        "Description": "Automatically archive links to videos, images, and social media content in a Google Sheet. - GitHub - bellingcat/auto-archiver: Automatically archive links to videos, images, and social media content in a Google Sheet.",
+        "Image": "https://opengraph.githubassets.com/da173633101fe2bf233ff387a19332b4991895a4bce499af699232641ff24697/bellingcat/auto-archiver",
+        "Categories": []
+    },
+    {
+        "URL": "https://getiago.com/",
+        "Title": "Learn Japanese (For Real) With Your Favorite TV shows | Iago",
+        "Description": "Iago is a free browser extension where you can interact with the subtitles to discover new words and grammar. Sign up for free today.",
+        "Image": "https://getiago.com/img/og.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://affine.pro/",
+        "Title": "Just a moment...",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://getwalletlogin.xyz/",
+        "Title": "walletlogin",
+        "Description": "Wallet based authorization and authentication, made simple",
+        "Image": "https://getwalletlogin.xyz/lib_zUyzMRAydcZXDCEL/s9yhow0m8sy1t3nl.svg?w=1200&h=630&fit=crop",
+        "Categories": []
+    },
+    {
+        "URL": "https://github.com/kochrt/markwhen",
+        "Title": "GitHub - mark-when/markwhen: Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.",
+        "Description": "Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more. - GitHub - mark-when/markwhen: Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.",
+        "Image": "https://opengraph.githubassets.com/54fd6d251fd44e9f190b60751ca420272fabe2faed455aa4ddbbd3d0437a2b8f/mark-when/markwhen",
+        "Categories": []
+    },
+    {
+        "URL": "https://trpc.io/docs/v10/",
+        "Title": "Page Not Found | tRPC",
+        "Description": "",
+        "Image": "https://og-image.trpc.io/api/landing?cache-buster=19",
+        "Categories": []
+    },
+    {
+        "URL": "https://search.marginalia.nu/",
+        "Title": "Marginalia Search",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.oldestsearch.com/",
+        "Title": "Oldest Search - Search for the oldest result on internet.",
+        "Description": "Search for a term and get the oldest results on internet. ",
+        "Image": "https://oldestsearch.com/og.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://bahn.guru/",
+        "Title": "Bahn-Preiskalender",
+        "Description": "Der Bahn-Guru hilft dir dabei, die günstigsten Sparpreise der Deutschen Bahn zu finden. 🚅",
+        "Image": "https://bahn.guru/assets/screenshot.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://fig.io/",
+        "Title": "Fig",
+        "Description": "The next-generation command line.",
+        "Image": "https://fig.io/images/screenshots/meta-img.jpg",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.nickkolenda.com/psychological-pricing-strategies/",
+        "Title": "Pricing Psychology: A List of Tactics",
+        "Description": "Which digits to choose? How high should it be? Should it be rounded or precise? Plus other techniques.",
+        "Image": "https://images.ctfassets.net/sm4pjcjvw1eb/3AMJc3hMK0DXH3vTSMBTtB/000708ce3050eca29f69b8bba01bc7cf/Pricing-Guide-min.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.bogleheads.org/wiki/Main_Page",
+        "Title": "",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://coolify.io/",
+        "Title": "Coolify",
+        "Description": "",
+        "Image": "https://cdn.coollabs.io/assets/coolify/og-image.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://twitter.com/heykahn/status/1549379680402153472?s=21&t=Ax3HppnbPQ6gOK4CqU0dSg",
+        "Title": "",
+        "Description": "",
+        "Image": "https://abs.twimg.com/favicons/twitter.2.ico",
+        "Categories": []
+    },
+    {
+        "URL": "https://explainjargon.com/",
+        "Title": "Jargon",
+        "Description": "",
+        "Image": "https://explainjargon.com/favicon.ico",
+        "Categories": []
+    },
+    {
+        "URL": "https://tockler.io/",
+        "Title": "Tockler",
+        "Description": "Track your time or look when and what were you doing at some point in time",
+        "Image": "https://tockler.io/favicon.ico",
+        "Categories": []
+    },
+    {
+        "URL": "https://beta.sayhello.so/",
+        "Title": "Just a moment...",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://vueuse.org/",
+        "Title": "VueUse | VueUse",
+        "Description": "Collection of essential Vue Composition Utilities",
+        "Image": "https://vueuse.org/og.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://quillbot.com/",
+        "Title": "Just a moment...",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://vytal.io/",
+        "Title": "",
+        "Description": "Browser extension to spoof your timezone, geolocation, locale and user agent.",
+        "Image": "https://vytal.io/favicon.ico",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.reddit.com/r/AskReddit/comments/q2viki/what_useful_unknown_website_do_you_wish_more/",
+        "Title": "Reddit - Dive into anything",
+        "Description": "",
+        "Image": "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://lorem.space/",
+        "Title": "Lorem.space - placeholder image generator",
+        "Description": "Lorem Ipsum fake image placeholder",
+        "Image": "https://lorem.space/card.jpg",
+        "Categories": []
+    },
+    {
+        "URL": "https://12ft.io/",
+        "Title": "12ft Ladder",
+        "Description": "",
+        "Image": "https://12ft.io/og-banner.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://github.com/antoniomika/sish",
+        "Title": "GitHub - antoniomika/sish: HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.",
+        "Description": "HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH. - GitHub - antoniomika/sish: HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.",
+        "Image": "https://opengraph.githubassets.com/237413069fcd9db36cdbfcd97e2345250ccc6e8f7e6680aad569e9af4d1166d6/antoniomika/sish",
+        "Categories": []
+    },
+    {
+        "URL": "https://github.com/ibraheemdev/modern-unix",
+        "Title": "GitHub - ibraheemdev/modern-unix: A collection of modern/faster/saner alternatives to common unix commands.",
+        "Description": "A collection of modern/faster/saner alternatives to common unix commands. - GitHub - ibraheemdev/modern-unix: A collection of modern/faster/saner alternatives to common unix commands.",
+        "Image": "https://opengraph.githubassets.com/3592eee067eaa5b2db5448d423878240f4399c9b9d3f330af104deefe427dc7d/ibraheemdev/modern-unix",
+        "Categories": []
+    },
+    {
+        "URL": "https://fig.io/",
+        "Title": "Fig",
+        "Description": "The next-generation command line.",
+        "Image": "https://fig.io/images/screenshots/meta-img.jpg",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.amazon.de/VAYDEER-AUS-Schalter-simuliert-Mausbewegung-verhindern/dp/B08CGR2TFB/ref=sr_1_11?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=mouse+jiggler&qid=1624609987&sr=8-11",
+        "Title": "Amazon.de",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.microsoft.com/de-de/p/move-mouse/9nq4ql59xlbf",
+        "Title": "Microsoft Corporation",
+        "Description": "",
+        "Image": "",
+        "Categories": []
+    },
+    {
+        "URL": "https://github.com/brython-dev/brython",
+        "Title": "GitHub - brython-dev/brython: Brython (Browser Python) is an implementation of Python 3 running in the browser",
+        "Description": "Brython (Browser Python) is an implementation of Python 3 running in the browser - GitHub - brython-dev/brython: Brython (Browser Python) is an implementation of Python 3 running in the browser",
+        "Image": "https://opengraph.githubassets.com/677376cc2c769a64f1139b2a654c1bae0adf7664d52e7d8ffa9ec25e59a4d654/brython-dev/brython",
+        "Categories": []
+    },
+    {
+        "URL": "https://reincubate.com/camo/",
+        "Title": "Camo - Great video made easy",
+        "Description": "Camo enables the camera you already own to produce incredible video, whether you’re meeting, streaming, or recording. Start creating great video today.",
+        "Image": "https://i.reincubate.com/c/camo-cover.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.smartsteuer.de/online/",
+        "Title": "smartsteuer ⇒ Steuererklärung 2022 einfach online selber machen!",
+        "Description": "Machen Sie Ihre Steuererklärung 2022 online einfach selber ➡ Ø 1079 € Erstattung ✅ < 60 Minuten ✅ 93 % Weiterempfehlungsrate ✅ Jetzt loslegen!",
+        "Image": "https://www.smartsteuer.de/online/wp-content/uploads/2019/06/mann-mit-laptop-test-mod1.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.svgrepo.com/",
+        "Title": "SVG Repo - Free SVG Vectors and Icons",
+        "Description": "Free Vectors and Icons in SVG format. ✅ Download free mono or multi color vectors for commercial use. Search in 500.000+ Free SVG Vectors and Icons.",
+        "Image": "https://www.svgrepo.com/social.png",
+        "Categories": []
+    },
+    {
+        "URL": "https://blaze.today/",
+        "Title": "Text Blaze: Snippets and Templates for Chrome",
+        "Description": "Text Blaze is an auto text Chrome Extension to insert snippets, templates and macros in Google Chrome. Speed up your work and type faster with this text expander.",
+        "Image": "https://blaze.today/images/feature-landingpage.gif",
+        "Categories": []
+    },
+    {
+        "URL": "https://www.smartsteuer.de/testen/online/steuererklaerung/?device=m&msclkid=c1cb2e6b2736132166c34e1f5f2cb74e&utm_source=bing&utm_medium=cpc&utm_campaign=00_01_Brand%20mobil&utm_term=smartsteuer&utm_content=smartsteuer",
+        "Title": "Steuererklärung online abgeben ⇒ Schnell & einfach | smartsteuer",
+        "Description": "",
+        "Image": "https://www.smartsteuer.de/testen/wp-content/themes/smartsteuer/img/cropped-favicon_512-32x32.png",
+        "Categories": []
+    }
+]
