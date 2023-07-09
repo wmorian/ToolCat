@@ -41,7 +41,7 @@ router.get('/search', async (req, res) => {
 
     try {
         const tools = await Tool.findAll({
-            attributes: ['name', 'description', 'link', 'image', 'creator', 'created_at'], // Only fetch these attributes
+            attributes: ['id', 'name', 'description', 'link', 'image', 'creator', 'created_at'], // Only fetch these attributes
             include: [
                 {
                     model: Category,
@@ -62,6 +62,7 @@ router.get('/search', async (req, res) => {
             const tags = tool.Tags.map(tag => tag.name);
 
             return {
+                "id": tool.id,
                 "name": tool.name,
                 "description": tool.description,
                 "link": tool.link,
@@ -86,6 +87,7 @@ router.get('/search', async (req, res) => {
                 .filter(r => r.score < 0.6) // score=0 is best match and score=1 is worst
                 .map(r => (
                     {
+                        "id": r.item.id,
                         "name": r.item.name,
                         "description": r.item.description,
                         "link": r.item.link,

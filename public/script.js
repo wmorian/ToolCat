@@ -1,3 +1,5 @@
+var currentQuery;
+
 document.getElementById('searchButton').addEventListener('click', performSearch);
 document.getElementById('searchInput').addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
@@ -13,48 +15,8 @@ function performSearch() {
         }
     }
     showTable();
-    var searchText = document.getElementById('searchInput').value;
-
-    fetch('/api/tools/search?query=' + searchText)
-        .then(response => response.json())
-        .then(data => {
-            console.log(data);
-            let placeholder = document.querySelector("#data-output");
-            let out = "";
-            let tools = data;
-            for (let tool of tools) {
-                let categoriesBadges = tool.categories && tool.categories.length > 0
-                    ? tool.categories.map(category => `<span class="badge result">${category}</span>`).join(' ')
-                    : '';
-
-                let tagsBadges = tool.tags && tool.tags.length > 0
-                    ? tool.tags.map(tag => `<span class="badge-small result">${tag}</span>`).join(' ')
-                    : '';
-
-                out += `
-                    <tr class="row">
-                        <td>
-                        <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
-                        <div class="img-container">
-                            <img src=${tool.image} class="img-circle" />
-                        </div>
-                        </td>
-                        <td>
-                            <p>${tool.description}</p>
-                            <div class="filter">
-                            ${categoriesBadges}
-                            ${tagsBadges}
-                            </div>
-                        </td>
-                    </tr>
-                `;
-            }
-
-            placeholder.innerHTML = out;
-        })
-        .catch(err => {
-            showError(err);
-        });
+    currentQuery = document.getElementById('searchInput').value;
+    loadTools(currentQuery);
 }
 
 document.getElementById('addButton').addEventListener('click', function () {
@@ -166,6 +128,57 @@ document.getElementById('webLink').addEventListener('change', function (e) {
 });
 
 
+function loadTools(query) {
+    fetch('/api/tools/search?query=' + query)
+        .then(response => response.json())
+        .then(data => {
+            let placeholder = document.querySelector("#data-output");
+            out = renderTools(data);
+            placeholder.innerHTML = out;
+        })
+        .catch(err => {
+            showError(err);
+        });
+}
+
+function renderTools(tools) {
+    // console.log(currentTools)
+    let out = "";
+    for (let tool of tools) {
+        let categoriesBadges = tool.categories && tool.categories.length > 0
+            ? tool.categories.map(category => `<span class="badge result">${category}</span>`).join(' ')
+            : '';
+
+        let tagsBadges = tool.tags && tool.tags.length > 0
+            ? tool.tags.map(tag => `<span class="badge-small result">${tag}</span>`).join(' ')
+            : '';
+
+        out += `
+                    <tr class="row">
+                        <td>
+                        <a target="_blank" rel="noopener noreferrer" href="${tool.link}">${tool.name}</a>
+                        <div class="img-container">
+                            <img src=${tool.image} class="img-circle" />
+                        </div>
+                        </td>
+                        <td>
+                            <p>${tool.description}</p>
+                            <div class="filter">
+                            ${categoriesBadges}
+                            ${tagsBadges}
+                            </div>
+                        </td>
+                        <td>
+                            <button class="delete-button" onclick="deleteTool(${tool.id})">
+                                X
+                            </button>
+                        </td>
+                    </tr>
+                `;
+    }
+    return out;
+}
+
 function autoComplete(type, query) {
     let container = document.getElementById(type + "AutoCompleteContainer");
     container.innerHTML = "";
@@ -227,13 +240,27 @@ function showError(msg) {
 }
 
 // TODO: theme light/dark mode switch
-document.addEventListener('DOMContentLoaded', () => {
-    const toggleButton = document.getElementById('toggleButton');
-    const rootElement = document.documentElement;
-    const htmlElement = document.querySelector('body');
+// document.addEventListener('DOMContentLoaded', () => {
+//     const toggleButton = document.getElementById('toggleButton');
+//     const rootElement = document.documentElement;
+//     const htmlElement = document.querySelector('body');
 
-    toggleButton.addEventListener('click', () => {
-        rootElement.classList.toggle('light-mode');
-        htmlElement.classList.toggle('light-mode');
-    });
-});
+//     toggleButton.addEventListener('click', () => {
+//         rootElement.classList.toggle('light-mode');
+//         htmlElement.classList.toggle('light-mode');
+//     });
+// });
+
+
+function deleteTool(id) {
+    fetch('/api/tools/' + id, { method: "DELETE"})
+        .then(response => {
+            if (response.status === 200)
+                loadTools(currentQuery)
+            else
+                showError(response.statusText)
+        })
+        .catch(err => {
+            showError(err);
+        });
+}
