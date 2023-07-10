@@ -125,6 +125,14 @@ fieldset div:last-of-type:has(.hideInput) {
     min-height: 60px;
 }
 
+@media screen and (min-width: 600px) {
+    .search-input {
+        height: 80px;
+        min-height: 80px;
+    }
+
+}
+
 .button-container {
     display: flex;
     padding-top: .5rem;
@@ -197,7 +205,7 @@ dialog .add-button {
     transition: 0.3s;
     margin: 10px;
     margin-top: -50px;
-    border: 2px solid;
+    border: 4px solid;
     background-color: #7241ff;
     width: 80px;
     height: 40px;
@@ -206,7 +214,7 @@ dialog .add-button {
 
 @media (prefers-color-scheme: light) {
     #searchButton {
-        outline: 1px solid black;
+        outline: 2px solid black;
     }
 }
 
@@ -219,7 +227,8 @@ dialog .add-button {
         width: clamp(200px, 20vw, 300px);
     }
     #searchButton {
-        height: 40px;
+        height: 60px;
+        margin-top: -70px;
     }
 }
 
@@ -235,6 +244,16 @@ dialog .add-button {
 
 .gg-search {
     margin: 0 !important;
+    margin-bottom: 5px !important;
+}
+
+@media screen and (min-width: 600px) {
+    .gg-search {
+        transform: scale(var(--ggs,1.5)) !important;
+    }
+    .gg-add {
+        transform: scale(var(--ggs,1.5)) !important;
+    }
 }
 
 .gg-trash {
