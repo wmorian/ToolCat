@@ -239,7 +239,7 @@ dialog .add-button {
 
 .gg-trash {
     margin: 0.25rem !important;
-    transform: scale(var(--ggs,2)) !important;
+    transform: scale(var(--ggs,1.5)) !important;
 }
 
 .filter-container {
@@ -323,9 +323,6 @@ tr:last-of-type {
 
 .row {
     transition: all 0.1s ease-in-out;
-}
-
-.row:hover {
 }
 
 .row:last-of-type {
@@ -643,10 +640,10 @@ form {
 
   .delete-button {
     display: none;
-    background-color: #f44336; /* Red */
+    background-color: #f44336;
     border: none;
     color: white;
-    padding: 27px 30px 20px;
+    padding: 3px 0 0 0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -654,6 +651,10 @@ form {
     margin: 4px 2px;
     cursor: pointer;
     aspect-ratio: 1/1;
+    width: 60px;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .row:hover .delete-button {
