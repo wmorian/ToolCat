@@ -656,7 +656,3 @@ form {
     display: flex;
     justify-content: center;
 }
-
-.row:hover .delete-button {
-    display: block;
-}
