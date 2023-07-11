@@ -140,12 +140,12 @@ fieldset div:last-of-type:has(.hideInput) {
 
 .add-container {
     position: absolute;
-    padding: .5rem;
-    bottom: 5vh;
     right: 0;
-    background-color: hsla(132, 100%, 40%, 0.4);
-    border-radius: 100vmax 0 0 100vmax;
+    bottom: 5vh;
     backdrop-filter: blur(2px);
+    border-radius: 100vmax 0 0 100vmax;
+    background-color: hsla(132, 100%, 40%, 0.4);
+    padding: .5rem;
 }
 
 @media (prefers-color-scheme: light) {
@@ -227,8 +227,8 @@ dialog .add-button {
         width: clamp(200px, 20vw, 300px);
     }
     #searchButton {
-        height: 60px;
         margin-top: -70px;
+        height: 60px;
     }
 }
 
@@ -257,8 +257,8 @@ dialog .add-button {
 }
 
 .gg-trash {
-    margin: 0.25rem !important;
     transform: scale(var(--ggs,1.5)) !important;
+    margin: 0.25rem !important;
 }
 
 .filter-container {
@@ -309,10 +309,10 @@ thead th {
 }
 
 tr {
-    border: 2px solid;
-    border-bottom: none;
     display: grid;
     grid-auto-flow: dense;
+    border: 2px solid;
+    border-bottom: none;
 }
 
 @media screen and (min-width: 600px) {
@@ -322,8 +322,13 @@ tr {
     }
 }
 
-tr:last-of-type {
+tbody tr:last-of-type {
     border-bottom: 2px solid;
+}
+
+p {
+    line-height: 1;
+    letter-spacing: -.1ch;
 }
 
 .container {
@@ -394,6 +399,7 @@ tr:last-of-type {
     outline: 2px solid white;
     border: 2px solid black;
     border-radius: 50%;
+    background-color: rgb(239, 239, 239);
     width: 150px;
     height: 150px;
     overflow: hidden;
@@ -535,8 +541,8 @@ form {
 
 .filter {
     display: flex;
-    align-items: flex-start;
     flex-flow: wrap;
+    align-items: flex-start;
     margin: auto 0;
 }
 
@@ -659,19 +665,19 @@ form {
 
   .delete-button {
     display: none;
-    background-color: #f44336;
-    border: none;
-    color: white;
-    padding: 3px 0 0 0;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
+    margin: 4px 2px;
+    border: none;
+    background-color: #f44336;
+    padding: 3px 0 0 0;
     aspect-ratio: 1/1;
     width: 60px;
     height: auto;
-    display: flex;
-    justify-content: center;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
 }
